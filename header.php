@@ -34,7 +34,7 @@
 			<div class="wrapper">
 				<div class="logo">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo_sh_light.svg" alt="">
-						<p class="menu-link">Menu</p>
+						<p class="menu-link" id="toggleNav">Menu</p>
 				</div>
 				<div class="navigation">
 					<?php wp_nav_menu(array( 'theme_location' => 'main' )); ?>
@@ -44,6 +44,36 @@
 				</div>
 			</div>
 		</nav>
+
+		<div class="nav" id="main-nav">
+			<div class="grid">
+				<div class="left-nav">
+					<?php wp_nav_menu(array( 'theme_location' => 'main' )); ?>
+				</div>
+				<div class="right-nav">
+					<div class="imprint">
+						<h5>Location</h5>
+						<p>Am Wasserwerk 2<br>25355 Barmstedt</p>
+						<div class="imprint-menu">
+							<ul>
+								<li><a href="#">Skillz</a></li>
+								<li><a href="#">Projektanfrage</a></li>
+								<li><a href="#">Partner</a></li>
+								<li><a href="#" class="active">Jetzt transformieren</a></li>
+								<li><a href="#">Karriere</a></li>
+							</ul>
+						</div>
+						<div class="imprint-nav">
+							<ul>
+								<li><a href="#">Impressum</a></li>
+								<li><a href="#">Datenschutz</a></li>
+								<li><a href="#">AGB</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 			<!-- header
 			<section id="header" role="banner">

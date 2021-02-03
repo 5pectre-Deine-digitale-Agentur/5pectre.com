@@ -1,0 +1,14 @@
+@keyframes scroll {
+  0% {
+    width: 0;
+    left: -20px;
+  }
+  50% {
+    width: 100px;
+    left: -120px;
+  }
+  100% {
+    width: 0;
+    left: 120px;
+  }
+}

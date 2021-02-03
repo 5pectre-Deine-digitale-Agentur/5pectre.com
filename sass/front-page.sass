@@ -1,0 +1,106 @@
+//_front-page.sass
+#title .wrapper
+  width: fit-content
+  z-index: 100
+
+.slide
+  width: 50%
+  height: 100%
+  position: absolute
+  right: 0
+  top: 0
+  overflow: hidden
+
+  img
+    max-width: 100%
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+
+.cta
+  display: flex
+  flex-direction: row
+  position: absolute
+  bottom: 50px
+  left: 50px
+
+  p
+    margin: 18px 35px
+
+
+  .icon
+    width: 50px
+    height: 50px
+    border: 1px solid $light
+    border-radius: 25px
+
+.controls
+  height: 50px
+  width: 50px
+  position: absolute
+  left: 40%
+  bottom: 53px
+
+  .next
+    &::after
+      content: ""
+      width: 2px
+      height: 25px
+      position: absolute
+      background: $light
+      transform: rotate(45deg)
+      bottom: 4px
+      right: 0
+
+    &::before
+      content: ""
+      width: 2px
+      height: 25px
+      position: absolute
+      background: $light
+      transform: rotate(-45deg)
+      top: 4px
+      right: 0
+
+  .prev
+    &::after
+      content: ""
+      width: 2px
+      height: 25px
+      position: absolute
+      background: $light
+      transform: rotate(45deg)
+      top: 4px
+      left: 0
+
+    &::before
+      content: ""
+      width: 2px
+      height: 25px
+      position: absolute
+      background: $light
+      transform: rotate(-45deg)
+      bottom: 4px
+      left: 0
+
+.subtitle
+  margin-bottom: 100px
+  display: flex
+  width: fit-content
+  transform: translateX(-200px)
+
+  .agency
+    position: absolute
+    bottom: -4px
+    right: 0
+    transform: translateX(120%)
+
+  .numbering
+    width: 250px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding-bottom: 20px
+    padding: 20px 10px
+    border-bottom: 0.5px solid $light
