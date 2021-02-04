@@ -5,7 +5,7 @@ nav
   height: 100px
   top: 0
   left: 0
-  z-index: 1
+  z-index: 50
 
   .wrapper
     width: calc(100% - 100px)
@@ -27,7 +27,7 @@ nav
         transform: translateY(-50%)
         left: 100px
         margin: 0
-        z-index: 120
+        z-index: 50
 
       img
         max-height: 100px
@@ -70,7 +70,7 @@ nav
   bottom: -100vh
   left: 0
   background: $dark
-  z-index: 110
+  z-index: 45
   transition: .5s
 
   &.toggled
@@ -146,3 +146,54 @@ nav
 
         li
           margin: 5px 0
+
+.ham
+  z-index: 500
+  -webkit-tap-highlight-color: transparent
+  transition: transform 400ms
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.hamRotate.active
+  transform: rotate(45deg)
+
+.hamRotate180.active
+  transform: rotate(180deg)
+
+.ham.active
+  .top
+    stroke-dasharray: 10 160
+
+.line
+  fill: none
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms
+  stroke: $light
+  stroke-width: 2
+  stroke-linecap: round
+
+.ham
+  .top
+    stroke-dasharray: 20 160
+
+  .middle
+    stroke-dasharray: 40 142
+    transform-origin: 50%
+    transition: transform 400ms
+
+  .bottom
+    stroke-dasharray: 20 85
+    transform-origin: 50%
+    transition: transform 400ms, stroke-dashoffset 400ms
+
+  &.active
+    .top
+      stroke-dashoffset: -64px
+
+    .middle
+      //stroke-dashoffset: -20px;
+      transform: rotate(90deg)
+
+    .bottom
+      stroke-dashoffset: -64px
