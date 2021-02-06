@@ -24,6 +24,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+
 		<nav>
 			<div class="wrapper">
 				<div class="logo">
@@ -81,23 +82,10 @@
 			</div>
 		</div>
 
-			<!-- header
-			<section id="header" role="banner">
-				<div class="w-wrapper">
-					logo
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img" width="300px">
-						</a>
-					</div>
-					/logo
-
-					nav
-					<nav class="nav" role="navigation">
-						<?php wp_nav_menu(array( 'theme_location' => 'main' )); ?>
-					</nav>
-					/nav
-				</div>
-			</section>
-			 /header -->
+		<section id="preloader">
+			<div id="loader_logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo_sh_light.svg" alt="">
+				<span>LOADING</span>
+			</div>
+			<div class="preload_background"></div>
+		</section>

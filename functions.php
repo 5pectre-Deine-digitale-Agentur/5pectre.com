@@ -8,7 +8,7 @@
    *    TODO: Navigation zuweisen.
    *    TODO: Custom-Post-Types erstellen
    *    TODO: Seitenspezifische .js-Dateien den entsprechenden Seiten zuweisen
-   
+
 */
 
 /*------------------------------------*\
@@ -113,6 +113,14 @@ function Spectreblank_conditional_scripts()
     }
 }
 
+// Load Spectre Blank Scripts (footer.php)
+function my_footer_enqueue()
+{
+    wp_register_script( 'twitter-customize', get_template_directory_uri() . '/js/anime.js', array(), '1.0', true );
+    wp_enqueue_script( 'twitter-customize' );
+}
+add_action( 'wp_enqueue_scripts', 'my_footer_enqueue' );
+
 // Load Spectre Blank styles
 function Spectreblank_styles()
 {
@@ -125,6 +133,7 @@ function team_styles2() {
 	if ( is_page_template('template-name.php') )
    	wp_enqueue_style( 'Template Name here', get_stylesheet_directory_uri() . '/css/template-name.css' );
 }
+
 add_action( 'wp_enqueue_scripts', 'team_styles2', 101 );
 
 // Register Spectre Blank Navigation
