@@ -3,6 +3,9 @@
   width: fit-content
   z-index: 10
 
+  h1
+    opacity: 0
+
 .slide
   width: 50%
   height: 100%
@@ -24,6 +27,7 @@
   position: absolute
   bottom: 50px
   left: 50px
+  z-index: 10
 
   p
     margin: 18px 35px
@@ -41,6 +45,7 @@
   position: absolute
   left: 40%
   bottom: 53px
+  z-index: 10
 
   .next
     &::after
@@ -95,6 +100,7 @@
     bottom: -4px
     right: 0
     transform: translateX(120%)
+    opacity: 0
 
   .numbering
     width: 250px
@@ -103,4 +109,20 @@
     justify-content: space-between
     padding-bottom: 20px
     padding: 20px 10px
-    border-bottom: 0.5px solid $light
+    position: relative
+
+    span
+      opacity: 0
+
+
+    .border
+      width: 0
+      height: 1px
+      background: $light
+      position: absolute
+      left: 0
+      bottom: 0
+
+h1, .cta, nav, .controls
+  opacity: 0
+  transform: translateY(50px)
