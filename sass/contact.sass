@@ -1,64 +1,30 @@
 #contact
-  .wrapper
-    position: absolute
-    top: 50%
-    left: 50px
-    transform: translateY(-50%)
+  justify-content: flex-start
+
+  .map
     width: 100%
-    z-index: 10
+    height: 70vh
+    position: relative
+    top: 0
 
-a.cta.phone
-  position: relative
-  left: 0
-  margin-top: 100px
-  width: fit-content
+  .grid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr
+    padding: 100px 0
+    min-height: 300px
 
-  &:hover .icon
-    width: 100%
-    transition: .3s
+    .adress
+      display: flex
+      flex-direction: column
 
-  &:hover p
-    color: $color1
-    transition: .3s
+      img
+        max-width: 300px
+        margin-bottom: 30px
 
-  .icon
-    position: absolute
-    left: 0
-    top: 50%
-    transform: translateY(-50%)
-    transition: .3s
+      .imprint
+        align-self: baseline
 
-  p
-    margin-left: 100px
-    transition: .3s
-
-  &:hover .icon
-      width: 100%
-
-a.cta.mail
-  position: relative
-  left: 0
-  width: fit-content
-  margin-top: 30px
-
-  &:hover .icon
-    width: 100%
-    transition: .3s
-
-  &:hover p
-    color: $color1
-    transition: .3s
-
-  .icon
-    position: absolute
-    left: 0
-    top: 50%
-    transform: translateY(-50%)
-    transition: .3s
-
-  p
-    margin-left: 100px
-    transition: .3s
-
-  &:hover .icon
-      width: 100%
+        ul li
+          margin-right: 20px
+          display: inline-block

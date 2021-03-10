@@ -1,15 +1,4 @@
 <?php
-/*      INDIVIDUELLE FUNKTIONEN
-
-   *    Author: Erik Jung | @Erik1645
-   *    URL: 5pectre.com | @Spectreblank
-   *    Individuelle Funktionen, Hilfestellung, Post-Types und mehr.
-   *    TODO: Einen Stylesheet mit dem Pfad "/css/Seiten-Name.css" für JEDE SEITE erstellen.
-   *    TODO: Navigation zuweisen.
-   *    TODO: Custom-Post-Types erstellen
-   *    TODO: Seitenspezifische .js-Dateien den entsprechenden Seiten zuweisen
-
-*/
 
 /*------------------------------------*\
 	External Modules/Files
@@ -37,25 +26,6 @@ if (function_exists('add_theme_support'))
     add_image_size('medium', 250, '', true); // Medium Thumbnail
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
-
-    // Add Support for Custom Backgrounds - Uncomment below if you're going to use
-    /*add_theme_support('custom-background', array(
-	'default-color' => 'FFF',
-	'default-image' => get_template_directory_uri() . '/img/bg.jpg'
-    ));*/
-
-    // Add Support for Custom Header - Uncomment below if you're going to use
-    /*add_theme_support('custom-header', array(
-	'default-image'			=> get_template_directory_uri() . '/img/headers/default.jpg',
-	'header-text'			=> false,
-	'default-text-color'		=> '000',
-	'width'				=> 1000,
-	'height'			=> 198,
-	'random-default'		=> false,
-	'wp-head-callback'		=> $wphead_cb,
-	'admin-head-callback'		=> $adminhead_cb,
-	'admin-preview-callback'	=> $adminpreview_cb
-    ));*/
 
     // Enables post and comment RSS feed links to head
     add_theme_support('automatic-feed-links');
@@ -104,37 +74,53 @@ function Spectreblank_header_scripts()
     }
 }
 
+// Load Footer Scripts (footer.php)
+function my_footer_enqueue_footer()
+{
+    wp_register_script( 'Spectreblankfooterscripts', get_template_directory_uri() . '/js/footerScripts.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectreblankfooterscripts' );
+
+    wp_register_script( 'Spectreblankanimationscripts', get_template_directory_uri() . '/js/animation.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectreblankanimationscripts' );
+
+    wp_register_script( 'Spectreblankcursorscripts', get_template_directory_uri() . '/js/cursor.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectreblankcursorscripts' );
+
+    // wp_register_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js', array(), '1.0', true );
+    // wp_enqueue_script( 'bootstrap' );
+
+    wp_register_script( 'fontawesome', 'https://kit.fontawesome.com/8928e65948.js', array(), '1.0', true );
+    wp_enqueue_script( 'fontawesome' );
+
+    wp_register_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js', array(), '1.0', true );
+    wp_enqueue_script( 'jquery' );
+
+    wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
+    wp_enqueue_script( 'animejs' );
+
+}
+add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' );
+
 // Load Spectre Blank conditional scripts
 function Spectreblank_conditional_scripts()
 {
-    if (is_page('pagenamehere')) {
-        wp_register_script('scriptname', get_template_directory_uri() . '/js/scriptname.js', array('jquery'), '1.0.0'); // Conditional script(s)
-        wp_enqueue_script('scriptname'); // Enqueue it!
-    }
+  // if (is_page('Kontakt')) {
+  //   wp_register_script('Map', get_template_directory_uri() . '/js/maps.js', array('jquery'), '1.0.0'); // Conditional script(s)
+  //   wp_enqueue_script('Map'); // Enqueue it!
+  //   wp_register_script('Google_Maps_API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBHW7szU1m46tBN0PnFcTcxNB3oAkd8a7s&map_ids=f9c10aa0eee63d5c&callback=initMap&libraries=&v=weekly', array('jquery'), '1.0.0'); // Conditional script(s)
+  //   wp_enqueue_script('Google_Maps_API'); // Enqueue it!
+  // }
 }
-
-// Load Spectre Blank Scripts (footer.php)
-function my_footer_enqueue()
-{
-    wp_register_script( 'twitter-customize', get_template_directory_uri() . '/js/anime.js', array(), '1.0', true );
-    wp_enqueue_script( 'twitter-customize' );
-}
-add_action( 'wp_enqueue_scripts', 'my_footer_enqueue' );
 
 // Load Spectre Blank styles
 function Spectreblank_styles()
 {
+    // wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css', array(), '1.0', 'all');
+    // wp_enqueue_style('bootstrap');
+
     wp_register_style('Spectreblank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-    wp_enqueue_style('Spectreblank'); // Enqueue it!
+    wp_enqueue_style('Spectreblank');
 }
-
-// Load Spectre conditional Styles
-function team_styles2() {
-	if ( is_page_template('template-name.php') )
-   	wp_enqueue_style( 'Template Name here', get_stylesheet_directory_uri() . '/css/template-name.css' );
-}
-
-add_action( 'wp_enqueue_scripts', 'team_styles2', 101 );
 
 // Register Spectre Blank Navigation
 function register_Spectre_menu()

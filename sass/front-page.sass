@@ -18,74 +18,6 @@
     left: 50%
     transform: translate(-50%,-50%)
 
-.cta
-  display: flex
-  flex-direction: row
-  position: absolute
-  bottom: 50px
-  left: 50px
-  z-index: 10
-
-  p
-    margin: 18px 35px
-
-
-  .icon
-    width: 50px
-    height: 50px
-    border: 1px solid $light
-    border-radius: 25px
-
-.controls
-  height: 50px
-  width: 50px
-  position: absolute
-  left: 40%
-  bottom: 53px
-  z-index: 10
-
-  .next
-    &::after
-      content: ""
-      width: 2px
-      height: 25px
-      position: absolute
-      background: $light
-      transform: rotate(45deg)
-      bottom: 4px
-      right: 0
-
-    &::before
-      content: ""
-      width: 2px
-      height: 25px
-      position: absolute
-      background: $light
-      transform: rotate(-45deg)
-      top: 4px
-      right: 0
-
-  .prev
-    &::after
-      content: ""
-      width: 2px
-      height: 25px
-      position: absolute
-      background: $light
-      transform: rotate(45deg)
-      top: 4px
-      left: 0
-
-    &::before
-      content: ""
-      width: 2px
-      height: 25px
-      position: absolute
-      background: $light
-      transform: rotate(-45deg)
-      bottom: 4px
-      left: 0
-
 .subtitle
   margin-bottom: 100px
   display: flex
@@ -97,7 +29,6 @@
     bottom: -4px
     right: 0
     transform: translateX(120%)
-    opacity: 0
 
   .numbering
     width: 250px
@@ -117,11 +48,96 @@
       left: 0
       bottom: 0
 
-h1, .cta, nav, .controls
-  opacity: 0
+.slide
+  display: none
+
+  &.slide_0
+    display: block
+
+.heading
+  display: none
+
+  &.text_0
+    display: block
+
+  .button-container
+    width: 100%
+    display: flex
+    flex-direction: row
+
+    .button
+      margin-left: 0
+      margin-top: 50px
+
+      &:first-child
+        margin-right: 50px
+
 
 h1.slide_title_2,h1.slide_title_3,h1.slide_title_4
   display: none
 
-#slide_1
-  z-index: 5
+.controls
+  width: 100%
+  height: 100px
+  display: flex
+  flex-direction: row
+  align-items: center
+  z-index: 50
+
+  .hero-cta
+    width: calc((100% - 765px) / 2)
+
+  .arrows
+    width: 765px
+    display: flex
+    flex-direction: row
+
+    .next
+      height: 50px
+      width: 50px
+      position: relative
+
+      &::after
+        content: ""
+        width: 25px
+        height: 2px
+        background: $light
+        position: absolute
+        transform: rotate(45deg)
+        top: 15px
+        right: 0
+
+      &::before
+        content: ""
+        width: 25px
+        height: 2px
+        background: $light
+        position: absolute
+        transform: rotate(-45deg)
+        bottom: 16px
+        right: 0
+
+    .prev
+      height: 50px
+      width: 50px
+      position: relative
+
+      &::after
+        content: ""
+        width: 25px
+        height: 2px
+        background: $light
+        position: absolute
+        transform: rotate(45deg)
+        bottom: 15px
+        left: 0
+
+      &::before
+        content: ""
+        width: 25px
+        height: 2px
+        background: $light
+        position: absolute
+        transform: rotate(-45deg)
+        top: 16px
+        left: 0
