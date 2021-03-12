@@ -72,13 +72,13 @@
       </div>
 
     </div>
-    <div class="header slider_img slide_0 slide" id="slide_1">
+    <div class="header slider_img card_0 card" id="slide_1">
       <img src="<?php echo get_template_directory_uri();?>/img/assets/team/Erik.png" alt="">
     </div>
-    <div class="header slider_img slide_1 slide" id="slide_2">
+    <div class="header slider_img card_1 card" id="slide_2">
       <img src="<?php echo get_template_directory_uri();?>/img/assets/team/Roman.png" alt="">
     </div>
-    <div class="header slider_img slide_2 slide" id="slide_3">
+    <div class="header slider_img card_2 card" id="slide_3">
       <img src="<?php echo get_template_directory_uri();?>/img/assets/team/Schnabel.png" alt="">
     </div>
     <div class="controls">
@@ -98,122 +98,3 @@
     </div>
     <div class="mask"></div>
 </section>
-
-<script type="text/javascript">
-// Hero Slider
-let counter = 0;
-
-document.querySelector('.next').addEventListener('click', ()=> {
-  let slides = document.querySelectorAll('.slider_img');
-  let n = slides.length;
-
-  if (counter < n - 1){
-    anime({
-      targets: ".mask",
-      width: ["50%","100%","100%","50%"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    anime({
-      targets: [".wrapper", ".cta", "nav", ".controls"],
-      opacity: ["1","0","0","1"],
-      translateY: ["0","10px","10px","0"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
-      document.querySelector('.text_' + counter).style.display = "none";
-      document.getElementById('number_' + counter).classList.remove('active');
-      counter+= 1;
-      document.querySelector('.slide_' + counter).style.display = "block";
-      document.querySelector('.text_' + counter).style.display = "block";
-      document.getElementById('number_' + counter).classList.add('active');
-    }, 1000);
-  } else if (counter == n - 1) {
-    anime({
-      targets: ".mask",
-      width: ["50%","100%","100%","50%"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    anime({
-      targets: [".wrapper", ".cta", "nav", ".controls"],
-      opacity: ["1","0","0","1"],
-      translateY: ["0","10px","10px","0"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
-      document.querySelector('.text_' + counter).style.display = "none";
-      document.getElementById('number_' + counter).classList.remove('active');
-      counter = 0;
-      document.querySelector('.slide_' + counter).style.display = "block";
-      document.querySelector('.text_' + counter).style.display = "block";
-      document.getElementById('number_' + counter).classList.add('active');
-    }, 1000);
-  }
-});
-
-document.querySelector('.prev').addEventListener('click', ()=> {
-  let slides = document.querySelectorAll('.slider_img');
-  let n = slides.length;
-
-  if (counter > 0){
-    anime({
-      targets: ".mask",
-      width: ["50%","100%","100%","50%"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    anime({
-      targets: [".wrapper", ".cta", "nav", ".controls"],
-      opacity: ["1","0","0","1"],
-      translateY: ["0","10px","10px","0"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
-      document.querySelector('.text_' + counter).style.display = "none";
-      document.getElementById('number_' + counter).classList.remove('active');
-      counter-= 1;
-      document.querySelector('.slide_' + counter).style.display = "block";
-      document.querySelector('.text_' + counter).style.display = "block";
-      document.getElementById('number_' + counter).classList.add('active');
-    }, 1000);
-  } else if (counter == 0) {
-    anime({
-      targets: ".mask",
-      width: ["50%","100%","100%","50%"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    anime({
-      targets: [".wrapper", ".cta", "nav", ".controls"],
-      opacity: ["1","0","0","1"],
-      translateY: ["0","10px","10px","0"],
-      delay: 0,
-      duration: 1500,
-      easing: 'linear'
-    });
-    setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
-      document.querySelector('.text_' + counter).style.display = "none";
-      document.getElementById('number_' + counter).classList.remove('active');
-      counter = n - 1;
-      document.querySelector('.slide_' + counter).style.display = "block";
-      document.querySelector('.text_' + counter).style.display = "block";
-      document.getElementById('number_' + counter).classList.add('active');
-    }, 1000);
-  }
-});
-</script>

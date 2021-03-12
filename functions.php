@@ -97,20 +97,32 @@ function my_footer_enqueue_footer()
 
     wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
     wp_enqueue_script( 'animejs' );
-
 }
 add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' );
 
 // Load Spectre Blank conditional scripts
 function Spectreblank_conditional_scripts()
 {
-  // if (is_page('Kontakt')) {
-  //   wp_register_script('Map', get_template_directory_uri() . '/js/maps.js', array('jquery'), '1.0.0'); // Conditional script(s)
-  //   wp_enqueue_script('Map'); // Enqueue it!
-  //   wp_register_script('Google_Maps_API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBHW7szU1m46tBN0PnFcTcxNB3oAkd8a7s&map_ids=f9c10aa0eee63d5c&callback=initMap&libraries=&v=weekly', array('jquery'), '1.0.0'); // Conditional script(s)
-  //   wp_enqueue_script('Google_Maps_API'); // Enqueue it!
-  // }
+  if (is_page('Kontakt')) {
+    wp_register_script('Map', get_template_directory_uri() . '/js/maps.js', array(), false, true); // Conditional script(s)
+    wp_enqueue_script('Map'); // Enqueue it!
+    wp_register_script('Maps_API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBHW7szU1m46tBN0PnFcTcxNB3oAkd8a7s&map_ids=f9c10aa0eee63d5c&callback=initMap&libraries=&v=weekly', array(), false, true); // Conditional script(s)
+    wp_enqueue_script('Maps_API'); // Enqueue it!
+  }
+  if (is_page('Agentur')) {
+    wp_register_script('Team', get_template_directory_uri() . '/js/teamSlider.js', array(), false, true); // Conditional script(s)
+    wp_enqueue_script('Team'); // Enqueue it!
+  }
+  if (is_page('5pectre')) {
+    wp_register_script('Hero', get_template_directory_uri() . '/js/hero.js', array(), false, true); // Conditional script(s)
+    wp_enqueue_script('Hero'); // Enqueue it!
+  }
+  if (is_page('Portfolio')) {
+    wp_register_script('Hero', get_template_directory_uri() . '/js/portfolioSlider.js', array(), false, true); // Conditional script(s)
+    wp_enqueue_script('Hero'); // Enqueue it!
+  }
 }
+
 
 // Load Spectre Blank styles
 function Spectreblank_styles()

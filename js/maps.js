@@ -1,3 +1,11 @@
+document.getElementById('map').addEventListener('mouseover',()=>{
+	document.querySelector('.cursor-dot').classList.add('move');
+});
+
+document.getElementById('map').addEventListener('mouseout',()=>{
+	document.querySelector('.cursor-dot').classList.remove('move');
+});
+
 let map;
 
 function initMap() {

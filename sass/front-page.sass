@@ -3,13 +3,17 @@
   width: 765px
   z-index: 10
 
-.slide
+.card
   width: 50%
   height: 100%
   position: absolute
   right: 0
   top: 0
   overflow: hidden
+  display: none
+
+  &.card_0
+    display: block
 
   img
     max-width: 100%
@@ -47,12 +51,6 @@
       position: absolute
       left: 0
       bottom: 0
-
-.slide
-  display: none
-
-  &.slide_0
-    display: block
 
 .heading
   display: none

@@ -1,3 +1,11 @@
+document.getElementById('slide').addEventListener('mouseover',()=>{
+	document.querySelector('.cursor-dot').classList.add('move-side');
+});
+
+document.getElementById('slide').addEventListener('mouseout',()=>{
+	document.querySelector('.cursor-dot').classList.remove('move-side');
+});
+
 const slider = document.querySelector('.items');
 let isDown = false;
 let startX;

@@ -34,29 +34,21 @@ for (i = 0; i < y; i++){
     });
 
     anime({
-      targets: ".mask",
-      width: ["50%","100%"],
+      targets: "#preloader",
+      width: ["0","100%"],
       delay: 500,
-      duration: 500,
-      easing: 'linear'
-    });
-
-    anime({
-      targets: "#loader_logo",
-      opacity: ["0","1"],
-      duration: 300,
-      dely: 0,
+      duration: 1000,
       easing: 'linear'
     });
 
     if (url === "Home"){
       setTimeout(function(){
         window.location.assign("http://5pectre.local/");
-      }, 1000);
+      }, 1100);
     } else {
     setTimeout(function(){
       window.location.assign("http://5pectre.local/" + url + "/");
-    }, 1000);
+    }, 1100);
   }
 });
 }

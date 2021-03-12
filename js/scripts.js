@@ -7,9 +7,9 @@ jQuery(document).ready(function() {
   });
   anime({
     targets: "#preloader",
-    width: "0",
-    left: "-100%",
-    duration: 10000,
-    delay: 2500
+    width: ["100%", "0"],
+    duration: 1000,
+    delay: 2500,
+    easing: 'linear'
   });
 });

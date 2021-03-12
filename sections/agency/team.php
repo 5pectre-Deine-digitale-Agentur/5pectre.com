@@ -1,6 +1,6 @@
 <section id="team">
   <div class="grid-container">
-    <main class="grid-item main">
+    <main class="grid-item main" id="slide">
       <div class="items">
         <div class="item item1">
           <img class="img" src="<?php echo get_template_directory_uri();?>/img/assets/team/Erik.png" alt="">
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="item item3">
-          <img class="img" src="<?php echo get_template_directory_uri();?>/img/assets/team/andi.jpg" alt="">
+          <img class="img" src="<?php echo get_template_directory_uri();?>/img/assets/team/Andi.png" alt="">
           <div class="data">
             <span class="highlight">Andi</span>
             <span>IT & Datenschutzexperte</span>
