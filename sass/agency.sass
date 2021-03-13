@@ -142,3 +142,19 @@
     left: -120px
     animation: scroll 3s infinite
     opacity: .2
+
+.drag
+  position: absolute
+  left: 50px
+  bottom: 50px
+
+  &::before
+    content: ""
+    background: $light
+    position: absolute
+    width: 100px
+    height: 1px
+    top: 50%
+    right: -120px
+    animation: drag 3s infinite
+    opacity: .2

@@ -5,6 +5,9 @@
   <div class="slider"></div>
   <div data-target="right "class="side-nav side-nav--right"></div>
   <div data-target="left" class="side-nav side-nav--left"></div>
+  <a href="#about" class="drag">
+    <span class="uppercase">DRAG</span>
+  </a>
 </div>
 
 <?php if( have_rows('portfolio') ): ?>
@@ -14,7 +17,7 @@
   <div class="portfolio__content nav__slide--<?php echo $num;?>">
     <section class="portfolio-item portfolio_item_1" id="about" style="will-change: display; display: flex">
       <div class="wrapper">
-        <div class="about grid">
+        <div class="about grid par">
           <div class="left-col">
             <h3>Test1</h3>
     				<ul class="duty-list">
