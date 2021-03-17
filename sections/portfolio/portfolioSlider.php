@@ -1,4 +1,4 @@
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/cards.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/cards.css">
 
 
 <div class="cont" id="slider">
@@ -6,7 +6,7 @@
   <div data-target="right "class="side-nav side-nav--right"></div>
   <div data-target="left" class="side-nav side-nav--left"></div>
   <a href="#about" class="drag">
-    <span class="uppercase">DRAG</span>
+    <span class="uppercase">CLICK & DRAG</span>
   </a>
 </div>
 
@@ -14,47 +14,56 @@
   <?php $num = 1;?>
   <?php while( have_rows('portfolio') ): the_row(); ?>
 
-  <div class="portfolio__content nav__slide--<?php echo $num;?>">
-    <section class="portfolio-item portfolio_item_1" id="about" style="will-change: display; display: flex">
-      <div class="wrapper">
-        <div class="about grid par">
-          <div class="left-col">
-            <h3>Test1</h3>
-    				<ul class="duty-list">
-    					<li>Art Direction</li>
-    					<li>Webdesign</li>
-    					<li>User Experience</li>
-    					<li>Graphic Design</li>
-    					<li>Developement</li>
-    				</ul>
-    				<h3>Datum</h3>
-    				<ul class="duty-list">
-    					<li>01.01.2021</li>
-    				</ul>
-    				<h3>Status</h3>
-    				<ul class="duty-list">
-    					<li>Online</li>
-    				</ul>
-          </div>
-          <div class="right-col">
-            <span>
-    					Lorem Ipsum dolor sit met ist nur ein Dummytext, den sich irgendwer als Platzhalter überlegt hatte. Man nutzt diesen als Platzhalter zur Bemessung von typografischen Räumen. Lorem Ipsum dolor sit met ist nur ein Dummytext, den sich irgendwer als Platzhalter überlegt hatte. Man nutzt diesen als Platzhalter zur Bemessung von typografischen Räumen. Lorem Ipsum dolor sit met ist nur ein Dummytext, den sich irgendwer als Platzhalter überlegt hatte. Man nutzt diesen als Platzhalter zur Bemessung von typografischen Räumen. Lorem Ipsum dolor sit met ist nur ein Dummytext, den sich irgendwer als Platzhalter überlegt hatte. Man nutzt diesen als Platzhalter zur Bemessung von typografischen Räumen.<br><br>
-    					Lorem Ipsum dolor sit met ist nur ein Dummytext, den sich irgendwer als Platzhalter überlegt hatte. Man nutzt diesen als Platzhalter zur Bemessung von typografischen Räumen.
-    				</span>
-          </div>
+        <div class="portfolio__content nav__slide--<?php echo $num;?>">
+          <section class="portfolio-item portfolio_item_1 par" id="about" style="will-change: display; display: flex">
+            <div class="wrapper">
+              <div class="about grid">
+                <div class="left-col">
+
+                  <?php if( have_rows('project_details') ): ?>
+                    <?php while( have_rows('project_details') ): the_row(); ?>
+
+                      <h3>Test1</h3>
+              				<ul class="duty-list">
+
+                        <?php if( have_rows('our_job') ): ?>
+                          <?php while( have_rows('our_job') ): the_row(); ?>
+
+                            <li><?php echo the_sub_field('job');?></li>
+
+                          <?php endwhile;?>
+                        <?php endif;?>
+
+              				</ul>
+              				<h3>Datum</h3>
+              				<ul class="duty-list">
+              					<li><?php echo the_sub_field('date');?></li>
+              				</ul>
+              				<h3>Status</h3>
+              				<ul class="duty-list">
+              					<li><?php echo the_sub_field('status');?></li>
+              				</ul>
+
+                    <?php endwhile; ?>
+                  <?php endif; ?>
+
+                </div>
+                <div class="right-col">
+                  <span><?php echo the_sub_field('project_description');?></span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="mockups">
+          	<div class="wrapper">
+              <?php if( have_rows('project_gallery') ): ?>
+                <?php while( have_rows('project_gallery') ): the_row(); ?>
+                  <img class="portfolio-img par" src="<?php echo the_sub_field('image');?>" alt="">
+                <?php endwhile; ?>
+              <?php endif; ?>
+          	</div>
+          </section>
         </div>
-      </div>
-    </section>
-    <section id="mockups">
-    	<div class="wrapper">
-        <?php if( have_rows('project_gallery') ): ?>
-          <?php while( have_rows('project_gallery') ): the_row(); ?>
-            <img class="portfolio-img" src="<?php echo the_sub_field('image');?>" alt="">
-          <?php endwhile; ?>
-        <?php endif; ?>
-    	</div>
-    </section>
-  </div>
 
   <?php $num++; endwhile; ?>
 <?php endif; ?>
@@ -112,7 +121,7 @@ jQuery(document).ready(function() {
     const firstLetter = arrCitiesDivided[city][0].charAt(0);
 
     const $slide =
-      jQuery(`<div data-target="${numSlide}" class="slide slide--${numSlide}">
+      jQuery(`<div data-target="${numSlide}" class="slide slide--${numSlide}" style="left: ${(numSlide - 1) * 100}%">
         <div class="slide__text-wrapper slide--${numSlide}__text-wrapper"></div>
       </div>`);
 

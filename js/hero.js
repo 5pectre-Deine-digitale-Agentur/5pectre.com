@@ -63,6 +63,7 @@ document.querySelector('.prev').addEventListener('click', ()=> {
   let n = slides.length;
 
   if (counter > 0){
+    console.log(counter)
     anime({
       targets: ".mask",
       width: ["50%","100%","100%","50%"],
@@ -79,11 +80,11 @@ document.querySelector('.prev').addEventListener('click', ()=> {
       easing: 'linear'
     });
     setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
+      document.querySelector('.card_' + counter).style.display = "none";
       document.querySelector('.text_' + counter).style.display = "none";
       document.getElementById('number_' + counter).classList.remove('active');
       counter-= 1;
-      document.querySelector('.slide_' + counter).style.display = "block";
+      document.querySelector('.card_' + counter).style.display = "block";
       document.querySelector('.text_' + counter).style.display = "block";
       document.getElementById('number_' + counter).classList.add('active');
     }, 1000);
@@ -104,11 +105,11 @@ document.querySelector('.prev').addEventListener('click', ()=> {
       easing: 'linear'
     });
     setTimeout(function(){
-      document.querySelector('.slide_' + counter).style.display = "none";
+      document.querySelector('.card_' + counter).style.display = "none";
       document.querySelector('.text_' + counter).style.display = "none";
       document.getElementById('number_' + counter).classList.remove('active');
       counter = n - 1;
-      document.querySelector('.slide_' + counter).style.display = "block";
+      document.querySelector('.card_' + counter).style.display = "block";
       document.querySelector('.text_' + counter).style.display = "block";
       document.getElementById('number_' + counter).classList.add('active');
     }, 1000);

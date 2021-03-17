@@ -3,7 +3,8 @@
 get_header(); ?>
 
 	<section id="contact">
-		<div class="map" id="map"></div>
+		<div class="map" id="map">
+		</div>
 		<div class="wrapper grid">
 			<div class="contact-button">
 				<a class="button phone" href="tel:040 237 24 33 302">
@@ -39,6 +40,7 @@ get_header(); ?>
 	</section>
 
 <?php
+include 'sections/contact/copy.php';
 include 'sections/preload.php';
 ?>
 

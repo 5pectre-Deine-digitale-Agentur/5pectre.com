@@ -1,32 +1,43 @@
 window.addEventListener("scroll", function() {
   if(window.pageYOffset > 15) {
-    anime({
-      targets: [".navigation"],
-      translateY: "-100px",
-      duration: 200,
-      easing: 'linear'
-    });
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(-50px)";
+    document.querySelector('.navigation').style.opacity = "0";
+    document.querySelector('.scroll').style.transition = "0.5s";
+    document.querySelector('.scroll').style.transform = "translateY(-300%) rotate(-90deg)";
+    document.querySelector('.scroll').style.opacity = "0";
+    document.querySelector('.hero-cta').style.transition = "0.5s";
+    document.querySelector('.hero-cta').style.transform = "translateY(-50px)";
+    document.querySelector('.hero-cta').style.opacity = "0";
   } else {
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(0)";
+    document.querySelector('.navigation').style.opacity = "1";
+    document.querySelector('.scroll').style.transition = "0.5s";
+    document.querySelector('.scroll').style.transform = "translateY(-50%) rotate(-90deg)";
+    document.querySelector('.scroll').style.opacity = "1";
+    document.querySelector('.hero-cta').style.transition = "0.5s";
+    document.querySelector('.hero-cta').style.transform = "translateY(0)";
+    document.querySelector('.hero-cta').style.opacity = "1";
+  };
+  let par = document.querySelectorAll('.par');
+  let n =  par.length;
+  for (i = 0; i < n; i++){
+    console.log(par[i].getBoundingClientRect().top - window.scrollY);
     anime({
-      targets: [".navigation"],
-      translateY: "0",
-      duration: 200,
+      targets: [".par"],
+      translateY: 0.05*(par[i].getBoundingClientRect().top - window.scrollY),
+      duration: 100,
       easing: 'linear'
     });
-  };
-  // let par = document.querySelectorAll('.par');
-  // let n =  par.length;
-  // for (i = 0; i < n; i++){
-  //   let box = par[i].getBoundingClientRect();
-  //
-  //   anime({
-  //     targets: [".par"],
-  //     translateY: -box.top,
-  //     duration: 200,
-  //     easing: 'linear'
-  //   });
-  // }
-})
+  }
+  anime({
+    targets: [".rev"],
+    translateY: -(0.3 * window.scrollY) + "px",
+    duration: 100,
+    easing: 'linear'
+  });
+});
 
 anime({
   targets: [".wrapper", ".cta", "nav", ".controls"],

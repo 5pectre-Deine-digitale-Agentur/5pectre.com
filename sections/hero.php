@@ -19,7 +19,7 @@
               <i class="fab fa-whatsapp classic"></i>
               <i class="fas fa-arrow-right hover"></i>
             </div>
-            <p>Jetzt mit uns chatten!</p>
+            <p>Jetzt beraten lassen</p>
           </a>
           <a class="button chat" href="mailto:support@5pectre.com">
             <div class="icon">
@@ -51,8 +51,8 @@
         </div>
       </div>
       <div class="text_2 heading">
-        <h1>Internet hier,</h1>
-        <h1 class="highlight3">Internet da!</h1>
+        <h1>Egal ob</h1>
+        <h1 class="highlight3">Webseite, PWA, oder App!</h1>
         <div class="button-container">
           <a class="button chat" href="mailto:support@5pectre.com">
             <div class="icon">

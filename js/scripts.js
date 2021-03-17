@@ -1,3 +1,9 @@
+if(jQuery(window).width() <= 1200){
+  setTimeout(function(){
+    window.location.assign("https://m.5pectre.com/");
+  }, 1100);
+}
+
 jQuery(document).ready(function() {
   anime({
     targets: "#loader_logo",

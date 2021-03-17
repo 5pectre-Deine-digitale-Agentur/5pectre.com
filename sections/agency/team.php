@@ -1,6 +1,6 @@
 <section id="team">
   <div class="grid-container">
-    <main class="grid-item main" id="slide">
+    <main class="grid-item main par" id="slide">
       <div class="items">
         <div class="item item1">
           <img class="img" src="<?php echo get_template_directory_uri();?>/img/assets/team/Erik.png" alt="">
