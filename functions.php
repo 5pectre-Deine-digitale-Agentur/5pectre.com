@@ -98,7 +98,6 @@ function my_footer_enqueue_footer()
     wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
     wp_enqueue_script( 'animejs' );
 }
-add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' );
 
 // Load Spectre Blank conditional scripts
 function Spectreblank_conditional_scripts()
@@ -120,6 +119,9 @@ function Spectreblank_conditional_scripts()
   if (is_page('Portfolio')) {
     wp_register_script('Hero', get_template_directory_uri() . '/js/portfolioSlider.js', array(), false, true); // Conditional script(s)
     wp_enqueue_script('Hero'); // Enqueue it!
+    // 
+    // wp_register_script('THREE', get_template_directory_uri() . '/js/app.js', array(), false, true); // Conditional script(s)
+    // wp_enqueue_script('THREE'); // Enqueue it!
   }
 }
 
@@ -360,6 +362,7 @@ add_action('init', 'register_Spectre_menu'); // Add Spectre Blank Menu
 add_action('init', 'create_post_type_Spectre'); // Add our Spectre Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'Spectrewp_pagination'); // Add our Spectre Pagination
+add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' );
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds

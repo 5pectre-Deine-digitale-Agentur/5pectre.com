@@ -58,7 +58,7 @@
           	<div class="wrapper">
               <?php if( have_rows('project_gallery') ): ?>
                 <?php while( have_rows('project_gallery') ): the_row(); ?>
-                  <img class="portfolio-img par" src="<?php echo the_sub_field('image');?>" alt="">
+                  <img class="portfolio-img three" src="<?php echo the_sub_field('image');?>" alt="">
                 <?php endwhile; ?>
               <?php endif; ?>
           	</div>
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
 
     const letter =
       jQuery(`<div class="slide__letter slide--${numSlide}__letter">
-        <img src="` + clientMockups[indexSlide] + `" class="frame">
+        <img src="` + clientMockups[indexSlide] + `" class="frame three">
       </div>`);
 
       const text =

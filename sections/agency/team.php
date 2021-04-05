@@ -30,6 +30,13 @@
             <span>IT & Datenschutzexperte</span>
           </div>
         </div>
+        <div class="item item3">
+          <img class="img" src="<?php echo get_template_directory_uri();?>/img/assets/team/Tim.png" alt="">
+          <div class="data">
+            <span class="highlight">Tim</span>
+            <span>Steuerberater & Finanzexperte</span>
+          </div>
+        </div>
       </div>
     </main>
   </div>
