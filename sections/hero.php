@@ -11,8 +11,8 @@
         <span class="agency"> // Deine digitale Agentur</span>
       </div>
       <div class="text_0 heading">
-        <h1>Einfach eine weitere Agentur</h1>
-        <h1 class="highlight">Nur Besser</h1>
+        <h1>Wir erschaffen heute</h1>
+        <h1 class="highlight">ein Morgen</h1>
         <div class="button-container">
           <a class="button chat" href="mailto:support@5pectre.com">
             <div class="icon">
@@ -31,8 +31,8 @@
         </div>
       </div>
       <div class="text_1 heading">
-        <h1>Wir sind die</h1>
-        <h1 class="highlight2">bessere Wahl</h1>
+        <h1>das besser</h1>
+        <h1 class="highlight2">& schöner ist</h1>
         <div class="button-container">
           <a class="button chat" href="mailto:support@5pectre.com">
             <div class="icon">
@@ -51,8 +51,8 @@
         </div>
       </div>
       <div class="text_2 heading">
-        <h1>Egal ob</h1>
-        <h1 class="highlight3">Webseite, PWA, oder App!</h1>
+        <h1>als es</h1>
+        <h1 class="highlight3">gestern noch war</h1>
         <div class="button-container">
           <a class="button chat" href="mailto:support@5pectre.com">
             <div class="icon">

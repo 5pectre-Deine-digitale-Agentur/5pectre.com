@@ -1,63 +1,29 @@
-#portfolioSlider
-  background: url('img/assets/background.svg')
-  background-size: contain
-  background-repeat: no-repeat
-
-#mockups
-  height: fit-content
-  padding-bottom: 100px
+#portfolio-hero
+  height: 100vh
+  position: relative
 
   .wrapper
-    .portfolio-img
-      width: 100%
-      height: auto
-      margin: 100px 0
-
-.duty-list
-  margin: 15px 0
-
-  li
-    color: $light
-    margin: 5px 0
-
-.frame
-  width: 992px
-
-.slide__logo
-  width: 992px
-  position: absolute
-  bottom: 0
-  display: flex
-  flex-direction: row
-  justify-content: center
-  align-items: center
-
-  img.client-logo
-    height: 50px
-
-
-  .x
-    width: 50px
-    height: 50px
     position: relative
-    margin: 50px
+    display: flex
+    align-items: center
+    width: 100%
+    max-width: 1200px
+    height: 100%
+    margin: 0 auto
+    z-index: 5
+    pointer-events: none
 
-    &::after
-      content: ""
-      position: absolute
-      width: 50px
-      height: 1px
-      top: 50%
-      left: 50%
-      transform: translate(-50%,-50%) rotate(45deg)
-      background: $light
+  canvas
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 0
 
-    &::before
-      content: ""
-      position: absolute
-      width: 50px
-      height: 1px
-      top: 50%
-      left: 50%
-      transform: translate(-50%,-50%) rotate(-45deg)
-      background: $light
+#cta
+  #slider-content
+    text-align: right
+
+    .meta
+      margin-right: 55px

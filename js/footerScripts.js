@@ -44,11 +44,38 @@ for (i = 0; i < y; i++){
     if (url === "Home"){
       setTimeout(function(){
         window.location.assign("http://5pectre.local/");
-      }, 1100);
+      }, 1300);
     } else {
     setTimeout(function(){
       window.location.assign("http://5pectre.local/" + url + "/");
-    }, 1100);
+    }, 1300);
   }
 });
+}
+
+//Set Links
+var links = document.querySelectorAll('.link');
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function() {
+		let url = this.dataset.url;
+		anime({
+			targets: [".cta", "nav", ".controls", ".wrapper"],
+			translateY: ["0", "10px"],
+			opacity: ["1","0"],
+			duration: 500,
+			easing: 'linear'
+		});
+
+		anime({
+			targets: "#preloader",
+			width: ["0","100%"],
+			delay: 500,
+			duration: 1000,
+			easing: 'linear'
+		});
+
+		setTimeout(function(){
+			window.location.assign(url);
+		}, 1300);
+  });
 }

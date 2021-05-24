@@ -89,6 +89,9 @@ function my_footer_enqueue_footer()
     // wp_register_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js', array(), '1.0', true );
     // wp_enqueue_script( 'bootstrap' );
 
+    wp_register_script( 'Spectreblankscrollscripts', get_template_directory_uri() . '/js/scroll.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectreblankscrollscripts' );
+
     wp_register_script( 'fontawesome', 'https://kit.fontawesome.com/8928e65948.js', array(), '1.0', true );
     wp_enqueue_script( 'fontawesome' );
 
@@ -97,6 +100,24 @@ function my_footer_enqueue_footer()
 
     wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
     wp_enqueue_script( 'animejs' );
+
+    wp_register_script( 'threejs', 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js', array(), '1.0', false );
+    wp_enqueue_script( 'threejs' );
+
+    wp_register_script( 'imagesLoaded', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js', array(), '1.0', true );
+    wp_enqueue_script( 'imagesLoaded' );
+
+    wp_register_script( 'TweenMax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js', array(), '1.0', true );
+    wp_enqueue_script( 'TweenMax' );
+
+    wp_register_script( 'scrollTrigger', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), '1.0', false );
+    wp_enqueue_script( 'scrollTrigger' );
+
+    wp_register_script( 'gsap', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js', array(), '1.0', false );
+    wp_enqueue_script( 'gsap' );
+
+    wp_register_script( 'locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.min.js', array(), '1.0', false );
+    wp_enqueue_script( 'locomotive-scroll' );
 }
 
 // Load Spectre Blank conditional scripts
@@ -105,6 +126,7 @@ function Spectreblank_conditional_scripts()
   if (is_page('Kontakt')) {
     wp_register_script('Map', get_template_directory_uri() . '/js/maps.js', array(), false, true); // Conditional script(s)
     wp_enqueue_script('Map'); // Enqueue it!
+
     wp_register_script('Maps_API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBHW7szU1m46tBN0PnFcTcxNB3oAkd8a7s&map_ids=f9c10aa0eee63d5c&callback=initMap&libraries=&v=weekly', array(), false, true); // Conditional script(s)
     wp_enqueue_script('Maps_API'); // Enqueue it!
   }
@@ -117,11 +139,17 @@ function Spectreblank_conditional_scripts()
     wp_enqueue_script('Hero'); // Enqueue it!
   }
   if (is_page('Portfolio')) {
-    wp_register_script('Hero', get_template_directory_uri() . '/js/portfolioSlider.js', array(), false, true); // Conditional script(s)
-    wp_enqueue_script('Hero'); // Enqueue it!
-    // 
-    // wp_register_script('THREE', get_template_directory_uri() . '/js/app.js', array(), false, true); // Conditional script(s)
-    // wp_enqueue_script('THREE'); // Enqueue it!
+    wp_register_script( 'OGL', 'https://cdn.jsdelivr.net/npm/ogl@0.0.39/dist/ogl.umd.js', array(), '1.0', false );
+    wp_enqueue_script( 'OGL' );
+
+    wp_register_script( 'Chroma', 'https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.3/chroma.min.js', array(), '1.0', false );
+    wp_enqueue_script( 'Chroma' );
+
+    wp_register_script( 'Spectreblankparticlescripts', get_template_directory_uri() . '/js/particles.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectreblankparticlescripts' );
+
+    wp_register_script( 'Spectrehorizontalscripts', get_template_directory_uri() . '/js/horizontalScroll.js', array(), '1.0', true );
+    wp_enqueue_script( 'Spectrehorizontalscripts' );
   }
 }
 
@@ -131,6 +159,8 @@ function Spectreblank_styles()
 {
     // wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css', array(), '1.0', 'all');
     // wp_enqueue_style('bootstrap');
+    wp_register_style('locomotive-style', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.css', array(), '1.0', 'all');
+    wp_enqueue_style('locomotive-style');
 
     wp_register_style('Spectreblank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('Spectreblank');

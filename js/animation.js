@@ -20,23 +20,6 @@ window.addEventListener("scroll", function() {
     document.querySelector('.hero-cta').style.transform = "translateY(0)";
     document.querySelector('.hero-cta').style.opacity = "1";
   };
-  let par = document.querySelectorAll('.par');
-  let n =  par.length;
-  for (i = 0; i < n; i++){
-    console.log(par[i].getBoundingClientRect().top - window.scrollY);
-    anime({
-      targets: [".par"],
-      translateY: 0.05*(par[i].getBoundingClientRect().top - window.scrollY),
-      duration: 100,
-      easing: 'linear'
-    });
-  }
-  anime({
-    targets: [".rev"],
-    translateY: -(0.3 * window.scrollY) + "px",
-    duration: 100,
-    easing: 'linear'
-  });
 });
 
 anime({

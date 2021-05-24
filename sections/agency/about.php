@@ -1,6 +1,6 @@
 <section class="portfolio_item portfolio_item_1" id="about">
   <div class="wrapper">
-    <div class="about grid par">
+    <div class="about grid">
       <div class="left-col">
         <h4>Was macht uns Besser?</h4>
       </div>

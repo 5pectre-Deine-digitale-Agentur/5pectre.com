@@ -1,18 +1,9 @@
-<?php
-/*    STARTSEITE
+<?php get_header(); ?>
 
-  *   TODO: ACF einbinden
-  *   TODO: AOS-Animationen erstellen
-  *   TODO: Alle Inhalte für mobile Endgeräte optimieren
-  *   TODO: Die "screenshot.png" muss ausgetauscht werden
-  *   TODO: Weitere Änderungen die Fallspezifisch sind, sind Asana zu entnehmen
-
-*/
-
-get_header(); ?>
-
-<?php
-include 'sections/hero.php';
-include 'sections/preload.php';?>
-
+<main class="main">
+  <?php
+    include 'sections/front-page/hero.php';
+    include 'sections/preload.php';
+  ?>
+</main>
 <?php get_footer(); ?>

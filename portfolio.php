@@ -2,14 +2,14 @@
   // Template Name: Portfolio
 get_header(); ?>
 
-<main>
-  <div data-scroll>
-    <?php include 'sections/portfolio/portfolioSlider.php';?>
-  </div>
+<main data-scroll-container>
+  <?php
+  // include 'sections/portfolio/portfolioSlider.php';
+  include 'sections/portfolio/hero.php';
+  include 'sections/portfolio/slider.php';
+  include 'sections/portfolio/cta.php';
+  include 'sections/preload.php';
+  ?>
 </main>
-
-<?php
-include 'sections/preload.php';
-include 'sections/three.php';?>
 
 <?php get_footer();?>

@@ -1,5 +1,5 @@
 <section id="clients">
-  <div class="wrapper par">
+  <div class="wrapper">
     <div class="clients grid">
       <div class="left-col">
         <h4>Unsere Kunden</h4>
