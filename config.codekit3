@@ -4,7 +4,7 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "B8837648-CE23-4EF1-A739-6D491BC397D8"
+      "uuidString" : "5D198282-D0B3-4B6E-B5E6-C5C69224019B"
     }
   ],
   "creatorBuild" : "34127",
@@ -88,12 +88,48 @@
       "oAP" : "\/comments.php",
       "oF" : 0
     },
-    "\/contact.php" : {
+    "\/css\/about.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/about-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/basics.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/basics-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/breakpoints.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/breakpoints-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/breakpoints.css.map" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/contact.php",
+      "oAP" : "\/css\/breakpoints.css.map",
       "oF" : 0
     },
     "\/css\/button.css" : {
@@ -108,7 +144,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/cards.css" : {
+    "\/css\/clients.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -116,11 +152,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/cards-min.css",
+      "oAP" : "\/css\/clients-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/cursor.css" : {
+    "\/css\/content.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -128,11 +164,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/cursor-min.css",
+      "oAP" : "\/css\/content-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/fron-page.css" : {
+    "\/css\/footer.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -140,11 +176,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/fron-page-min.css",
+      "oAP" : "\/css\/footer-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/front-page.css" : {
+    "\/css\/navigation.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -152,21 +188,17 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/front-page-min.css",
+      "oAP" : "\/css\/navigation-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/keyframes.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
+    "\/css\/navigation.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/keyframes-min.css",
-      "oF" : 0,
-      "pg" : 0
+      "oAP" : "\/css\/navigation.css.map",
+      "oF" : 0
     },
     "\/css\/portfolio.css" : {
       "aP" : 1,
@@ -177,18 +209,6 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/portfolio-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/project.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/project-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -204,7 +224,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/team-slider.css" : {
+    "\/css\/section.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -212,9 +232,37 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/team-slider-min.css",
+      "oAP" : "\/css\/section-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/css\/style.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style.css.map",
+      "oF" : 0
+    },
+    "\/css\/variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/variables-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/variables.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/variables.css.map",
+      "oF" : 0
     },
     "\/fonts\/readme.txt" : {
       "cB" : 0,
@@ -261,172 +309,6 @@
       "iS" : 1000948,
       "oA" : 0,
       "oAP" : "\/img\/assets\/background.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/background.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/assets\/background.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/assets\/statue.png" : {
-      "ft" : 32768,
-      "iS" : 9945954,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/statue.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/team\/Andi.png" : {
-      "ft" : 32768,
-      "iS" : 9202990,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/team\/Andi.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/team\/Erik.png" : {
-      "ft" : 32768,
-      "iS" : 7807552,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/team\/Erik.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/team\/Roman.png" : {
-      "ft" : 32768,
-      "iS" : 11029870,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/team\/Roman.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/team\/Schnabel.png" : {
-      "ft" : 32768,
-      "iS" : 12464290,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/team\/Schnabel.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/assets\/team\/Tim.png" : {
-      "ft" : 32768,
-      "iS" : 16099394,
-      "oA" : 0,
-      "oAP" : "\/img\/assets\/team\/Tim.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/1.png" : {
-      "ft" : 32768,
-      "iS" : 34908,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/2.png" : {
-      "ft" : 32768,
-      "iS" : 998364,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/4.png" : {
-      "ft" : 32768,
-      "iS" : 211809,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/ENOVA.jpg" : {
-      "ft" : 16384,
-      "iS" : 2153677,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/ENOVA.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/logo.png" : {
-      "ft" : 32768,
-      "iS" : 731699,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/client\/mockup.png" : {
-      "ft" : 32768,
-      "iS" : 1828081,
-      "oA" : 0,
-      "oAP" : "\/img\/client\/mockup.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -547,192 +429,6 @@
       "oAP" : "\/img\/icons\/favicons\/site.webmanifest",
       "oF" : 0
     },
-    "\/img\/icons\/maps\/maps.png" : {
-      "ft" : 32768,
-      "iS" : 30200,
-      "oA" : 0,
-      "oAP" : "\/img\/icons\/maps\/maps.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/icons\/maps\/maps.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/icons\/maps\/maps.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logos\/2x\/crispy@2x.png" : {
-      "ft" : 32768,
-      "iS" : 3877,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/crispy@2x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/2x\/insanto.png" : {
-      "ft" : 32768,
-      "iS" : 10386,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/insanto.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/2x\/MDSN.png" : {
-      "ft" : 32768,
-      "iS" : 8257,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/MDSN.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/2x\/minuth@2x.png" : {
-      "ft" : 32768,
-      "iS" : 8437,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/minuth@2x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/2x\/sammy.png" : {
-      "ft" : 32768,
-      "iS" : 15312,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/sammy.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/2x\/seyfert.png" : {
-      "ft" : 32768,
-      "iS" : 5774,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/2x\/seyfert.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/3x\/crispy@3x.png" : {
-      "ft" : 32768,
-      "iS" : 6035,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/3x\/crispy@3x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/3x\/gol@3x.png" : {
-      "ft" : 32768,
-      "iS" : 4231,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/3x\/gol@3x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/3x\/insanto@3x.png" : {
-      "ft" : 32768,
-      "iS" : 12179,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/3x\/insanto@3x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/3x\/mdsn@3x.png" : {
-      "ft" : 32768,
-      "iS" : 9915,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/3x\/mdsn@3x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/3x\/minuth@3x.png" : {
-      "ft" : 32768,
-      "iS" : 13011,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/3x\/minuth@3x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/logos\/logo Kopie.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/logo Kopie.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logos\/logo_dark.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/logo_dark.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/img\/logos\/logo.png" : {
       "ft" : 32768,
       "iS" : 44008,
@@ -745,74 +441,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/img\/logos\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logos\/PDF\/crispy.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/crispy.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/PDF\/insanto.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/insanto.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/PDF\/MDSN.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/MDSN.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/PDF\/minuth.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/minuth.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/PDF\/sammy.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/sammy.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/PDF\/seyfert.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/logos\/PDF\/seyfert.pdf",
-      "oF" : 0
-    },
-    "\/img\/logos\/stamp_dark.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/stamp_dark.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/img\/logos\/stamp.png" : {
       "ft" : 32768,
@@ -827,75 +455,70 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/logos\/stamp.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/stamp.svg",
+    "\/img\/ressources\/01_Team\/erik.png" : {
+      "ft" : 32768,
+      "iS" : 619984,
+      "oA" : 0,
+      "oAP" : "\/img\/ressources\/01_Team\/erik.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/img\/logos\/SVG\/crispy.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/crispy.svg",
+    "\/img\/ressources\/01_Team\/roman.png" : {
+      "ft" : 32768,
+      "iS" : 623236,
+      "oA" : 0,
+      "oAP" : "\/img\/ressources\/01_Team\/roman.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/img\/logos\/SVG\/insanto.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/insanto.svg",
+    "\/img\/ressources\/01_Team\/schnabel.png" : {
+      "ft" : 32768,
+      "iS" : 877889,
+      "oA" : 0,
+      "oAP" : "\/img\/ressources\/01_Team\/schnabel.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/img\/logos\/SVG\/MDSN.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/MDSN.svg",
+    "\/img\/ressources\/5pectreLoginCoverDark.png" : {
+      "ft" : 32768,
+      "iS" : 720677,
+      "oA" : 0,
+      "oAP" : "\/img\/ressources\/5pectreLoginCoverDark.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/img\/logos\/SVG\/minuth.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/minuth.svg",
+    "\/img\/ressources\/5pectreLoginCoverLight.png" : {
+      "ft" : 32768,
+      "iS" : 715264,
+      "oA" : 0,
+      "oAP" : "\/img\/ressources\/5pectreLoginCoverLight.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logos\/SVG\/sammy.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/sammy.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logos\/SVG\/seyfert.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logos\/SVG\/seyfert.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/index.php" : {
       "cB" : 0,
@@ -927,28 +550,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/js\/cursor.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/cursor-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/footerScripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/footerScripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/js\/footerScripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -956,39 +557,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/js\/footerScripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/hero.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/hero-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/horizontalScroll-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/horizontalScroll-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/horizontalScroll.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/horizontalScroll-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2389,39 +1957,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/js\/maps.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/maps-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/particles.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/particles-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2433,48 +1968,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/js\/scroll.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/js\/scroll-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/shader\/fragment.glsl" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/js\/shader\/fragment.glsl",
-      "oF" : 0
-    },
-    "\/js\/shader\/noise.glsl" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/js\/shader\/noise.glsl",
-      "oF" : 0
-    },
-    "\/js\/shader\/vertex.glsl" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/js\/shader\/vertex.glsl",
-      "oF" : 0
-    },
-    "\/js\/teamSlider.js" : {
+    "\/js\/wp-admin.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/teamSlider-min.js",
+      "oAP" : "\/js\/wp-admin-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2674,20 +2174,12 @@
       "oAP" : "\/pagination.php",
       "oF" : 0
     },
-    "\/portfolio.php" : {
+    "\/prepros.config" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/portfolio.php",
-      "oF" : 0
-    },
-    "\/project.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/project.php",
+      "oAP" : "\/prepros.config",
       "oF" : 0
     },
     "\/README.md" : {
@@ -2709,7 +2201,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/sass\/404.sass" : {
+    "\/sass\/01_Basics\/basics.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2717,13 +2209,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/404.css",
+      "oAP" : "\/sass\/01_Basics\/basics.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/agency.sass" : {
+    "\/sass\/01_Basics\/breakpoints.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2731,13 +2223,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/agency.css",
+      "oAP" : "\/sass\/01_Basics\/breakpoints.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/basics.sass" : {
+    "\/sass\/01_Basics\/button.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2745,13 +2237,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/basics.css",
+      "oAP" : "\/sass\/01_Basics\/button.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/breakpoints.sass" : {
+    "\/sass\/01_Basics\/scrollbar.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2759,13 +2251,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/breakpoints.css",
+      "oAP" : "\/sass\/01_Basics\/scrollbar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/button.sass" : {
+    "\/sass\/01_Basics\/variables.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2773,13 +2265,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/button.css",
+      "oAP" : "\/sass\/01_Basics\/variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/contact.sass" : {
+    "\/sass\/02_Navigation\/navigation.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2787,13 +2279,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/contact.css",
+      "oAP" : "\/sass\/02_Navigation\/navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/copyright.sass" : {
+    "\/sass\/03_Sections\/about.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2801,13 +2293,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/copyright.css",
+      "oAP" : "\/sass\/03_Sections\/about.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/cursor.sass" : {
+    "\/sass\/03_Sections\/clients.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2815,13 +2307,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/cursor.css",
+      "oAP" : "\/sass\/03_Sections\/clients.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/front-page.sass" : {
+    "\/sass\/03_Sections\/competence.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2829,13 +2321,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/front-page.css",
+      "oAP" : "\/sass\/03_Sections\/competence.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/keyframes.sass" : {
+    "\/sass\/03_Sections\/contact.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2843,27 +2335,27 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/keyframes.css",
+      "oAP" : "\/sass\/03_Sections\/contact.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/navigation.sass" : {
+    "\/sass\/03_Sections\/footer.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 2,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/sass\/navigation.css",
+      "oA" : 0,
+      "oAP" : "\/sass\/03_Sections\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/page.sass" : {
+    "\/sass\/03_Sections\/hero.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2871,13 +2363,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/page.css",
+      "oAP" : "\/sass\/03_Sections\/hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/portfolio.sass" : {
+    "\/sass\/03_Sections\/portfolio.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2885,13 +2377,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/portfolio.css",
+      "oAP" : "\/sass\/03_Sections\/portfolio.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/preloader.sass" : {
+    "\/sass\/03_Sections\/skillz.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2899,13 +2391,13 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/preloader.css",
+      "oAP" : "\/sass\/03_Sections\/skillz.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/project.sass" : {
+    "\/sass\/03_Sections\/team.sass" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -2913,42 +2405,14 @@
       "ft" : 2,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/project.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/scrollbar.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/sass\/scrollbar.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/slider.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/sass\/slider.css",
+      "oAP" : "\/sass\/03_Sections\/team.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
     "\/sass\/style.sass" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "dP" : 10,
       "ec" : 1,
@@ -2957,34 +2421,6 @@
       "oA" : 0,
       "oAP" : "\/style.css",
       "oF" : 2,
-      "oS" : 0,
-      "pg" : 1,
-      "sct" : 0
-    },
-    "\/sass\/team-slider.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/sass\/team-slider.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/variables.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/sass\/variables.css",
-      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -3018,76 +2454,100 @@
       "oAP" : "\/searchform.php",
       "oF" : 0
     },
-    "\/sections\/agency\/about.php" : {
+    "\/sections\/01_Home\/about.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/agency\/about.php",
+      "oAP" : "\/sections\/01_Home\/about.php",
       "oF" : 0
     },
-    "\/sections\/agency\/clients.php" : {
+    "\/sections\/01_Home\/clients.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/agency\/clients.php",
+      "oAP" : "\/sections\/01_Home\/clients.php",
       "oF" : 0
     },
-    "\/sections\/agency\/hero.php" : {
+    "\/sections\/01_Home\/contact.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/agency\/hero.php",
+      "oAP" : "\/sections\/01_Home\/contact.php",
       "oF" : 0
     },
-    "\/sections\/agency\/team.php" : {
+    "\/sections\/01_Home\/hero.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/agency\/team.php",
+      "oAP" : "\/sections\/01_Home\/hero.php",
       "oF" : 0
     },
-    "\/sections\/contact.php" : {
+    "\/sections\/01_Home\/portfolio.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/contact.php",
+      "oAP" : "\/sections\/01_Home\/portfolio.php",
       "oF" : 0
     },
-    "\/sections\/contact\/copy.php" : {
+    "\/sections\/02_Agency\/competence.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/contact\/copy.php",
+      "oAP" : "\/sections\/02_Agency\/competence.php",
       "oF" : 0
     },
-    "\/sections\/copyright.php" : {
+    "\/sections\/02_Agency\/hero.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/copyright.php",
+      "oAP" : "\/sections\/02_Agency\/hero.php",
       "oF" : 0
     },
-    "\/sections\/front-page\/hero.php" : {
+    "\/sections\/02_Agency\/skillz.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/front-page\/hero.php",
+      "oAP" : "\/sections\/02_Agency\/skillz.php",
       "oF" : 0
     },
-    "\/sections\/hero.php" : {
+    "\/sections\/02_Agency\/team.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sections\/hero.php",
+      "oAP" : "\/sections\/02_Agency\/team.php",
+      "oF" : 0
+    },
+    "\/sections\/03_work\/portfolio.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/portfolio.php",
+      "oF" : 0
+    },
+    "\/sections\/04_MoinMoin\/contact.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/04_MoinMoin\/contact.php",
+      "oF" : 0
+    },
+    "\/sections\/content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/content.php",
       "oF" : 0
     },
     "\/sections\/navigation.php" : {
@@ -3098,62 +2558,6 @@
       "oAP" : "\/sections\/navigation.php",
       "oF" : 0
     },
-    "\/sections\/portfolio\/cta.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/portfolio\/cta.php",
-      "oF" : 0
-    },
-    "\/sections\/portfolio\/hero.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/portfolio\/hero.php",
-      "oF" : 0
-    },
-    "\/sections\/portfolio\/slider.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/portfolio\/slider.php",
-      "oF" : 0
-    },
-    "\/sections\/preload.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/preload.php",
-      "oF" : 0
-    },
-    "\/sections\/process.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/process.php",
-      "oF" : 0
-    },
-    "\/sections\/project\/info.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/project\/info.php",
-      "oF" : 0
-    },
-    "\/sections\/project\/next.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/project\/next.php",
-      "oF" : 0
-    },
     "\/single.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3162,7 +2566,7 @@
       "oAP" : "\/single.php",
       "oF" : 0
     },
-    "\/style-dist.css" : {
+    "\/style-min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -3170,7 +2574,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/style-dist-min.css",
+      "oAP" : "\/style-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -3221,7 +2625,7 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 637760955.95991004,
+    "creationDate" : 643475948.24785304,
     "displayValue" : "5pectre.com",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/img\/icons\/favicons\/apple-touch-icon.png",

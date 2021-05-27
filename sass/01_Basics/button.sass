@@ -1,0 +1,59 @@
+// Button
+
+a.button
+  position: relative
+  margin-top: 150px
+  width: fit-content
+
+  &:hover
+    .icon
+      width: 100%
+      background: $black
+      transition: .5s
+
+      i
+        left: 25px
+        transition: .5s
+
+  .button-content
+    position: relative
+    font-weight: 600
+    font-family: $regular
+    padding-left: 75px
+    padding-right: 25px
+    font-size: $size * 1.5
+    transition: .5s
+    z-index: 0
+
+  .icon
+    height: 50px
+    width: 50px
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+    border-radius: 25px
+    background: black
+    transition: .5s
+    overflow: hidden
+    z-index: 1
+
+    i
+      font-size: 25px
+      color: $white
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      left: 20px
+      transition: .5s
+
+    .overflow
+      position: absolute
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      left: 75px
+      font-size: $size * 1.5
+      font-weight: bold
+      font-family: $regular
+      color: white

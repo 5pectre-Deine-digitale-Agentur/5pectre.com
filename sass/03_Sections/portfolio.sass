@@ -1,0 +1,148 @@
+#portfolio.front-page
+  position: relative
+  width: 100%
+  padding-top: 200px
+  padding-bottom: 100px
+
+  .portfolio
+    width: 60%
+    margin-left: 40%
+    margin-top: 100px
+
+    .text-wrapper
+      margin-bottom: 50px
+
+  .grid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 2em 0
+
+
+    .item
+        /* border: 1px solid #000; */
+        align-self: center
+        text-decoration: none
+        color: #333
+
+        &:hover
+          img
+            width: 110%
+            transition: 1s
+
+    .item:nth-child(odd)
+        justify-self: start
+
+    .item:nth-child(even)
+        justify-self: end
+
+    .item img
+        width: 100%
+        height: auto
+        display: block
+
+    .item__image
+        position: relative
+        margin-bottom: 0.6em
+        height: fit-content
+
+    .item__meta
+        position: absolute
+        left: -0.4em
+        bottom: 0.4em
+        transform-origin: 0 100%
+        transform: rotate(-90deg)
+        text-transform: uppercase
+        font-size: 80%
+
+    .item__title
+        font-size: 40px
+        line-height: 1.2
+        margin-bottom: 0.4em
+        font-family: $heading
+
+    .item_p
+        line-height: 1.4
+        font-size: 1em
+
+    .item_h
+        width: 100%
+
+    .item_v
+        width: 80%
+
+#work.side
+  height: 100%
+  width: 100%
+  position: fixed
+  bottom: calc(-100% - 300px)
+  overflow: hidden
+  background: $white
+  padding: 100px 0
+  overflow-y: auto
+  z-index: 10
+  transition: .5s
+
+  &.toggled
+    bottom: 0
+    transition: .5s
+
+  .grid
+    padding-top: 300px
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 2em 0
+    width: calc(100% - 200px)
+    margin-left: 200px
+
+
+    .item
+        /* border: 1px solid #000; */
+        align-self: center
+        text-decoration: none
+        color: #333
+
+        &:hover
+          img
+            width: 110%
+            transition: 1s
+
+    .item:nth-child(odd)
+        justify-self: start
+
+    .item:nth-child(even)
+        justify-self: end
+
+    .item img
+        width: 100%
+        height: auto
+        display: block
+
+    .item__image
+        position: relative
+        margin-bottom: 0.6em
+        height: fit-content
+
+    .item__meta
+        position: absolute
+        left: -0.4em
+        bottom: 0.4em
+        transform-origin: 0 100%
+        transform: rotate(-90deg)
+        text-transform: uppercase
+        font-size: 80%
+
+    .item__title
+        font-size: 40px
+        line-height: 1.2
+        margin-bottom: 0.4em
+        font-family: $heading
+
+    .item_p
+        line-height: 1.4
+        font-size: 1em
+
+    .item_h
+        width: 100%
+
+    .item_v
+        width: 80%

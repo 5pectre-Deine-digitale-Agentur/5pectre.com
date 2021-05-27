@@ -1,0 +1,10 @@
+#clients.front-page .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.2rem;
+}
+#clients.front-page .grid .item {
+  background: black;
+  height: 250px;
+  width: 100%;
+}

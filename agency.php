@@ -1,14 +1,17 @@
 <?php
-// Template Name: Agency
+/* 		Template Name: Agency    */
 get_header(); ?>
-<main data-scroll-container>
-	<?php
-    include 'sections/agency/hero.php';
-    include 'sections/agency/about.php';
-    include 'sections/agency/team.php';
-    include 'sections/agency/clients.php';
-		include 'sections/preload.php';
-	?>
-</main>
+
+	<main role="main" data-scroll-container>
+		
+    <?php
+      include 'sections/02_Agency/hero.php';
+      include 'sections/02_Agency/competence.php';
+      include 'sections/02_Agency/team.php';
+			include 'sections/01_Home/about.php';
+			include 'sections/02_Agency/skillz.php';
+			include 'sections/01_Home/clients.php';
+			include 'sections/01_Home/contact.php';
+    ?>
 
 <?php get_footer(); ?>

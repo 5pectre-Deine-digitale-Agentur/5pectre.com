@@ -1,4 +1,15 @@
 <?php
+/*      INDIVIDUELLE FUNKTIONEN
+
+   *    Author: Erik Jung | @Erik1645
+   *    URL: 5pectre.com | @Spectreblank
+   *    Individuelle Funktionen, Hilfestellung, Post-Types und mehr.
+   *    TODO: Einen Stylesheet mit dem Pfad "/css/Seiten-Name.css" für JEDE SEITE erstellen.
+   *    TODO: Navigation zuweisen.
+   *    TODO: Custom-Post-Types erstellen
+   *    TODO: Seitenspezifische .js-Dateien den entsprechenden Seiten zuweisen
+
+*/
 
 /*------------------------------------*\
 	External Modules/Files
@@ -26,6 +37,25 @@ if (function_exists('add_theme_support'))
     add_image_size('medium', 250, '', true); // Medium Thumbnail
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
+
+    // Add Support for Custom Backgrounds - Uncomment below if you're going to use
+    /*add_theme_support('custom-background', array(
+	'default-color' => 'FFF',
+	'default-image' => get_template_directory_uri() . '/img/bg.jpg'
+    ));*/
+
+    // Add Support for Custom Header - Uncomment below if you're going to use
+    /*add_theme_support('custom-header', array(
+	'default-image'			=> get_template_directory_uri() . '/img/headers/default.jpg',
+	'header-text'			=> false,
+	'default-text-color'		=> '000',
+	'width'				=> 1000,
+	'height'			=> 198,
+	'random-default'		=> false,
+	'wp-head-callback'		=> $wphead_cb,
+	'admin-head-callback'		=> $adminhead_cb,
+	'admin-preview-callback'	=> $adminpreview_cb
+    ));*/
 
     // Enables post and comment RSS feed links to head
     add_theme_support('automatic-feed-links');
@@ -83,15 +113,6 @@ function my_footer_enqueue_footer()
     wp_register_script( 'Spectreblankanimationscripts', get_template_directory_uri() . '/js/animation.js', array(), '1.0', true );
     wp_enqueue_script( 'Spectreblankanimationscripts' );
 
-    wp_register_script( 'Spectreblankcursorscripts', get_template_directory_uri() . '/js/cursor.js', array(), '1.0', true );
-    wp_enqueue_script( 'Spectreblankcursorscripts' );
-
-    // wp_register_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js', array(), '1.0', true );
-    // wp_enqueue_script( 'bootstrap' );
-
-    wp_register_script( 'Spectreblankscrollscripts', get_template_directory_uri() . '/js/scroll.js', array(), '1.0', true );
-    wp_enqueue_script( 'Spectreblankscrollscripts' );
-
     wp_register_script( 'fontawesome', 'https://kit.fontawesome.com/8928e65948.js', array(), '1.0', true );
     wp_enqueue_script( 'fontawesome' );
 
@@ -100,70 +121,42 @@ function my_footer_enqueue_footer()
 
     wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
     wp_enqueue_script( 'animejs' );
-
-    wp_register_script( 'threejs', 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js', array(), '1.0', false );
-    wp_enqueue_script( 'threejs' );
-
-    wp_register_script( 'imagesLoaded', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js', array(), '1.0', true );
-    wp_enqueue_script( 'imagesLoaded' );
-
-    wp_register_script( 'TweenMax', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js', array(), '1.0', true );
-    wp_enqueue_script( 'TweenMax' );
-
+    
     wp_register_script( 'scrollTrigger', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), '1.0', false );
     wp_enqueue_script( 'scrollTrigger' );
-
+    
     wp_register_script( 'gsap', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js', array(), '1.0', false );
     wp_enqueue_script( 'gsap' );
-
+    
     wp_register_script( 'locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.min.js', array(), '1.0', false );
     wp_enqueue_script( 'locomotive-scroll' );
+}
+
+// Load Admin Scripts
+function custom_admin_js() {
+    $url = get_bloginfo('template_directory') . '/js/wp-admin.js';
+    echo '"<script type="text/javascript" src="'. $url . '"></script>"';
 }
 
 // Load Spectre Blank conditional scripts
 function Spectreblank_conditional_scripts()
 {
-  if (is_page('Kontakt')) {
-    wp_register_script('Map', get_template_directory_uri() . '/js/maps.js', array(), false, true); // Conditional script(s)
-    wp_enqueue_script('Map'); // Enqueue it!
-
-    wp_register_script('Maps_API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBHW7szU1m46tBN0PnFcTcxNB3oAkd8a7s&map_ids=f9c10aa0eee63d5c&callback=initMap&libraries=&v=weekly', array(), false, true); // Conditional script(s)
-    wp_enqueue_script('Maps_API'); // Enqueue it!
-  }
-  if (is_page('Agentur')) {
-    wp_register_script('Team', get_template_directory_uri() . '/js/teamSlider.js', array(), false, true); // Conditional script(s)
-    wp_enqueue_script('Team'); // Enqueue it!
-  }
-  if (is_page('5pectre')) {
-    wp_register_script('Hero', get_template_directory_uri() . '/js/hero.js', array(), false, true); // Conditional script(s)
-    wp_enqueue_script('Hero'); // Enqueue it!
-  }
-  if (is_page('Portfolio')) {
-    wp_register_script( 'OGL', 'https://cdn.jsdelivr.net/npm/ogl@0.0.39/dist/ogl.umd.js', array(), '1.0', false );
-    wp_enqueue_script( 'OGL' );
-
-    wp_register_script( 'Chroma', 'https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.3/chroma.min.js', array(), '1.0', false );
-    wp_enqueue_script( 'Chroma' );
-
-    wp_register_script( 'Spectreblankparticlescripts', get_template_directory_uri() . '/js/particles.js', array(), '1.0', true );
-    wp_enqueue_script( 'Spectreblankparticlescripts' );
-
-    wp_register_script( 'Spectrehorizontalscripts', get_template_directory_uri() . '/js/horizontalScroll.js', array(), '1.0', true );
-    wp_enqueue_script( 'Spectrehorizontalscripts' );
-  }
+    if (is_page('pagenamehere')) {
+        wp_register_script('scriptname', get_template_directory_uri() . '/js/scriptname.js', array('jquery'), '1.0.0'); // Conditional script(s)
+        wp_enqueue_script('scriptname'); // Enqueue it!
+    }
 }
-
 
 // Load Spectre Blank styles
 function Spectreblank_styles()
 {
-    // wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css', array(), '1.0', 'all');
-    // wp_enqueue_style('bootstrap');
-    wp_register_style('locomotive-style', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.css', array(), '1.0', 'all');
-    wp_enqueue_style('locomotive-style');
-
     wp_register_style('Spectreblank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('Spectreblank');
+}
+
+// Load Spectre Blank Admin Stylesheet
+function my_admin_style() {
+  wp_enqueue_style( 'admin-style', get_stylesheet_directory_uri() . '/admin-style.css' );
 }
 
 // Register Spectre Blank Navigation
@@ -385,14 +378,16 @@ function Spectreblankcomments($comment, $args, $depth)
 
 // Add Actions
 add_action('init', 'Spectreblank_header_scripts'); // Add Custom Scripts to wp_head
+add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' ); // Add Custom Scripts to wp_footer
 add_action('wp_print_scripts', 'Spectreblank_conditional_scripts'); // Add Conditional Page Scripts
+add_action('admin_footer', 'custom_admin_js'); // Add Custom Scripts to Admin-Dashboard
 add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
 add_action('wp_enqueue_scripts', 'Spectreblank_styles'); // Add Theme Stylesheet
+add_action( 'admin_enqueue_scripts', 'my_admin_style'); // Add Admin Stylesheet
 add_action('init', 'register_Spectre_menu'); // Add Spectre Blank Menu
 add_action('init', 'create_post_type_Spectre'); // Add our Spectre Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'Spectrewp_pagination'); // Add our Spectre Pagination
-add_action( 'wp_enqueue_scripts', 'my_footer_enqueue_footer' );
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds

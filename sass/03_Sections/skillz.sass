@@ -1,0 +1,74 @@
+#skillz.agency
+  margin: 200px 0 200px 0
+
+  .skill-title
+    width: calc(100% - 200px)
+    margin-left: 200px
+    margin-bottom: 100px
+
+  .skill-row
+    width: calc(100% - 200px)
+    margin-left: 200px
+
+    .skill-container.active
+      .skill-content
+        height: 400px
+        transition: .5s
+
+      & + .show-more
+        .icon
+          background: $black
+          transform: translate(-50%,-50%)
+          transition: .5s
+
+          i
+            transform: translate(-50%,-50%) rotate(180deg)
+            transition: .5s
+
+    .skill-preview
+      margin-top: 50px
+      text-align: center
+
+    .skill-content
+      height: 0
+      overflow: hidden
+      transition: .5s
+
+    .show-more
+      background: $color5
+      width: 100%
+      height: 1px
+      margin-top: 25px
+      position: relative
+
+      &::after
+        content: ""
+        width: 40px
+        height: 40px
+        background: $white
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%,-50%)
+        z-index: 0
+
+      .icon
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%,-50%)
+        height: 25px
+        width: 25px
+        border-radius: 15px
+        border: 1px solid $color5
+        z-index: 1
+        transition: .5s
+
+        i
+          color: $color5
+          position: absolute
+          left: 50%
+          top: 13px
+          transform: translate(-50%,-50%)
+          font-size: 10px
+          transition: .5s

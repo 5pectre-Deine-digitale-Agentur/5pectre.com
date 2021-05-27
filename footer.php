@@ -1,10 +1,10 @@
-  <!-- CURSOR -->
-  <div class="cursor-dot">
-    <div class="arrows-up-down"></div>
-    <div class="arrows-left-right"></div>
-  </div>
-  <div class="cursor-dot-outline"></div>
-  <?php wp_footer(); ?>
+    </main>
+    <?php wp_footer(); ?>
+
+    <?php
+      include 'sections/03_Work/portfolio.php';
+      include 'sections/04_MoinMoin/contact.php';
+     ?>
 
   </body>
 </html>
