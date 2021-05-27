@@ -3,22 +3,22 @@
       <div id="slider-content">
         <div class="meta">Deine digitale Agentur</div>
         <div id="slide-title">
-          <h2>Heute</h2>
+          <h2>Dort wo andere Schwarz sehen</h2>
         </div>
         <div class="hide" data-slide-title="0">
-          <h2>Heute</h2>
+          <h2>Starten wir gemeinsam durch!</h2>
         </div>
         <div class="hide" data-slide-title="1">
-          <h2>Morgen</h2>
+          <h2>Digitale Erlebnisse von Morgen</h2>
         </div>
         <div class="hide" data-slide-title="2">
-          <h2>Zukunft</h2>
+          <h2>Das Geld folgt den Blicken</h2>
         </div>
-        <div class="meta">Status</div>
-        <div id="slide-status">Test</div>
-        <div class="hide" data-slide-status="0">Test</div>
-        <div class="hide" data-slide-status="1">Test1</div>
-        <div class="hide" data-slide-status="2">Test2</div>
+        <!-- <div class="meta">Status</div> -->
+        <div id="slide-status">fühlen wir uns so richtig wohl</div>
+        <div class="hide" data-slide-status="0"></div>
+        <div class="hide" data-slide-status="1"></div>
+        <div class="hide" data-slide-status="2"></div>
       </div>
     </div>
     <img src="<?php echo get_template_directory_uri();?>/img/assets/team/Erik.png" />

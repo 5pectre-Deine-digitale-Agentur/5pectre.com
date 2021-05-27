@@ -14,7 +14,7 @@ if( $featured_posts ): ?>
           <?php if( have_rows('info') ): ?>
             <?php while( have_rows('info') ): the_row(); ?>
               <div class="meta">Nächstes Project</div>
-              <h2><?php echo the_sub_field('client');?></h2>
+              <h3><?php echo the_sub_field('client');?></h3>
             <?php endwhile;?>
           <?php endif;?>
 

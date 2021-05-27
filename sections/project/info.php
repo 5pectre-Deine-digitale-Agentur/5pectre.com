@@ -9,9 +9,9 @@
 
               <div class="content">
                 <div class="meta"><?php echo the_sub_field('client');?></div>
-                <h1><?php echo the_sub_field('punchline');?></h1>
+                <h3><?php echo the_sub_field('punchline');?></h3>
                 <div class="role">
-                  <div class="meta">Role</div>
+                  <div class="meta">Roles</div>
                   <ul>
                     <?php if( have_rows('roles') ): ?>
                       <?php while( have_rows('roles') ): the_row(); ?>
