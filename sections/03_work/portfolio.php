@@ -1,60 +1,39 @@
 <section id="work" class="side all">
   <div class="wrapper">
     <div class="grid">
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_h">
+
+      <?php $args = array( 'post_type' => 'Spectre-blank', 'posts_per_page' => 100, 'orderby' => 'rand' );
+        $loop = new WP_Query( $args );
+        $count = 1;
+        $num = 2;
+        while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <?php if( $count % 3 == 0 || $num % 3 == 0 ) : ?>
+
+        <a href="<?php the_permalink(); ?>" class="item item_v">
             <div class="item__image">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
+                <div class="item__meta"><?php echo get_the_date( get_option('date_format') ); ?></div>
             </div>
 
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
+            <h3 class="item__title heading"><?php the_title(); ?></h2>
+            <p><?php echo the_content(); ?></p>
         </a>
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_v">
+
+      <?php else : ?>
+
+        <a href="<?php the_permalink(); ?>" class="item item_h">
             <div class="item__image">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
+                <div class="item__meta"><?php echo get_the_date( get_option('date_format') ); ?></div>
             </div>
 
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
+            <h3 class="item__title heading"><?php the_title(); ?></h2>
+            <p><?php echo the_content(); ?></p>
         </a>
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_h">
-            <div class="item__image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
-            </div>
 
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
-        </a>
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_v">
-            <div class="item__image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
-            </div>
+      <?php endif; $count++; $num++; ?>
+      <?php endwhile; ?>
 
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
-        </a>
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_h">
-            <div class="item__image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
-            </div>
-
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
-        </a>
-        <a href="https://www.livescience.com/octopuses-punch-fish.html" class="item item_v">
-            <div class="item__image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/assets/background.png" alt="">
-                <div class="item__meta">December 23, 2020</div>
-            </div>
-
-            <h3 class="item__title heading">Octopus punches fish in the head (just because it can)</h2>
-            <p>Octopuses sometimes partner with fish to hunt, but the partnership comes with risks (for the fish, that is).</p>
-        </a>
     </div>
   </div>
 </section>

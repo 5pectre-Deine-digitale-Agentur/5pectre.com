@@ -17,6 +17,18 @@
       "oAP" : "\/404.php",
       "oF" : 0
     },
+    "\/admin-style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/admin-style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/admin-style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -59,6 +71,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/category.php",
+      "oF" : 0
+    },
+    "\/CHANGELOG.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/CHANGELOG.html",
       "oF" : 0
     },
     "\/CHANGELOG.md" : {
@@ -454,6 +474,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/logos\/stamp.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/logos\/stamp.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/ressources\/01_Team\/erik.png" : {
       "ft" : 32768,
@@ -2131,6 +2161,14 @@
       "oAP" : "\/languages\/ro_RO.po",
       "oF" : 0
     },
+    "\/LICENSE.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/LICENSE.html",
+      "oF" : 0
+    },
     "\/LICENSE.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2180,6 +2218,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/prepros.config",
+      "oF" : 0
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
       "oF" : 0
     },
     "\/README.md" : {
@@ -2556,6 +2602,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/navigation.php",
+      "oF" : 0
+    },
+    "\/single-work.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-work.php",
       "oF" : 0
     },
     "\/single.php" : {

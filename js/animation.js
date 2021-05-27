@@ -1,10 +1,6 @@
 // LocomotiveScroll
-
 gsap.registerPlugin(ScrollTrigger);
-
 const pageContainer = document.querySelector('[data-scroll-container]');
-
-/* SMOOTH SCROLL */
 const scroller = new LocomotiveScroll({
   el: pageContainer,
   smooth: true
@@ -16,14 +12,38 @@ let burger = document.querySelector('.ham');
 navTrigger.addEventListener("click",()=>{
   if (document.querySelector('.ham.hamRotate').classList.contains('active')) {
     document.getElementById('main-nav').classList.add('toggled');
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(-50px)";
+    document.querySelector('.navigation').style.opacity = "0";
   } else {
     document.getElementById('main-nav').classList.remove('toggled');
     document.getElementById('work').classList.remove('toggled');
+    document.getElementById('moin').classList.remove('toggled');
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(0)";
+    document.querySelector('.navigation').style.opacity = "1";
   }
 })
 let workTrigger=document.querySelector(".work-link");
 workTrigger.addEventListener("click",()=>{
+
   document.querySelector("#work").classList.toggle("toggled");
+  if (document.querySelector('.ham.hamRotate').classList.contains('active')) {
+    document.querySelector('.ham.hamRotate').classList.remove('active');
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(0)";
+    document.querySelector('.navigation').style.opacity = "1";
+  } else {
+    document.querySelector('.ham.hamRotate').classList.add('active');
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(-50px)";
+    document.querySelector('.navigation').style.opacity = "0";
+  }
+})
+let moinTrigger=document.querySelector(".moin-link");
+moinTrigger.addEventListener("click",()=>{
+
+  document.querySelector("#moin").classList.toggle("toggled");
   if (document.querySelector('.ham.hamRotate').classList.contains('active')) {
     document.querySelector('.ham.hamRotate').classList.remove('active');
   } else {
@@ -71,13 +91,24 @@ slider.addEventListener('mousemove', (e) => {
   }
 });
 
-//Accordeon
-
-let item = document.querySelectorAll('.skill-container');
-let n = item.length
+// Accordeon
+let item = document.querySelectorAll('.accordeon');
 
 item.forEach((item, i) => {
   item.addEventListener('click', ()=> {
     item.classList.toggle('active');
   })
+});
+
+// Navigation
+window.addEventListener("scroll", function() {
+  if(window.pageYOffset > 15) {
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(-50px)";
+    document.querySelector('.navigation').style.opacity = "0";
+  } else {
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(0)";
+    document.querySelector('.navigation').style.opacity = "1";
+  };
 });

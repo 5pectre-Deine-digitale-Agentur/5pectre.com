@@ -1,0 +1,5 @@
+.acf-fields.-left>.acf-field>.acf-label {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px
+}

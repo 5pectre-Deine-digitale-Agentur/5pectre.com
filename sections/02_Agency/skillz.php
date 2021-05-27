@@ -4,7 +4,7 @@
       <h2 class="heading">Wir können dir am besten helfen, wenn..</h2>
     </div>
     <div class="skill-row">
-      <div class="skill-container">
+      <div class="skill-container accordeon">
         <div class="skill-preview">
           <h3 class="heading">.. du eine App, Software oder Webseite Entwicklen möchtest</h3>
         </div>
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="skill-row">
-      <div class="skill-container">
+      <div class="skill-container accordeon">
         <div class="skill-preview">
           <h3 class="heading">.. dein Onlineshop den gewissen Kick genötigt</h3>
         </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="skill-row">
-      <div class="skill-container">
+      <div class="skill-container accordeon">
         <div class="skill-preview">
           <h3 class="heading">.. du mit Social-Media Mitarbeiter anwerben möchtest</h3>
         </div>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="skill-row">
-      <div class="skill-container">
+      <div class="skill-container accordeon">
         <div class="skill-preview">
           <h3 class="heading">.. du ein System benötigst um Online an neue Kunden ran zu kommen.</h3>
         </div>

@@ -121,13 +121,13 @@ function my_footer_enqueue_footer()
 
     wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
     wp_enqueue_script( 'animejs' );
-    
+
     wp_register_script( 'scrollTrigger', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), '1.0', false );
     wp_enqueue_script( 'scrollTrigger' );
-    
+
     wp_register_script( 'gsap', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js', array(), '1.0', false );
     wp_enqueue_script( 'gsap' );
-    
+
     wp_register_script( 'locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.min.js', array(), '1.0', false );
     wp_enqueue_script( 'locomotive-scroll' );
 }
@@ -443,18 +443,18 @@ function create_post_type_Spectre()
     register_post_type('Spectre-blank', // Register Custom Post Type
         array(
         'labels' => array(
-            'name' => __('Testimonials', 'Spectreblank'), // Rename these to suit
-            'singular_name' => __('Testimonial', 'Spectreblank'),
+            'name' => __('Work', 'Spectreblank'), // Rename these to suit
+            'singular_name' => __('Work', 'Spectreblank'),
             'add_new' => __('Add New', 'Spectreblank'),
-            'add_new_item' => __('Add New Testimonial', 'Spectreblank'),
-            'edit' => __('Edit', 'Testimonial'),
-            'edit_item' => __('Edit Testimonial', 'Spectreblank'),
-            'new_item' => __('New Testimonial', 'Spectreblank'),
-            'view' => __('View Testimonial', 'Spectreblank'),
-            'view_item' => __('View Testimonial', 'Spectreblank'),
-            'search_items' => __('Search Testimonials', 'Spectreblank'),
-            'not_found' => __('No Testimonials found', 'Spectreblank'),
-            'not_found_in_trash' => __('No Testimonials found in Trash', 'Spectreblank')
+            'add_new_item' => __('Add New Work', 'Spectreblank'),
+            'edit' => __('Edit', 'Work'),
+            'edit_item' => __('Edit Work', 'Spectreblank'),
+            'new_item' => __('New Work', 'Spectreblank'),
+            'view' => __('View Work', 'Spectreblank'),
+            'view_item' => __('View Work', 'Spectreblank'),
+            'search_items' => __('Search Work', 'Spectreblank'),
+            'not_found' => __('No Work found', 'Spectreblank'),
+            'not_found_in_trash' => __('No Work found in Trash', 'Spectreblank')
         ),
         'public' => true,
         'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages

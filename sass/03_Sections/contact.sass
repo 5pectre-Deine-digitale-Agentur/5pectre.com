@@ -50,13 +50,40 @@
           bottom: 0
           right: 0
 
-  #moin.side
-    width: 100vw
-    height: 50vh
-    padding: 100px 0
-    background: $white
-    position: fixed
-    bottom: 0
+#moin.side
+  width: 100vw
+  height: fit-content
+  background: $white
+  position: fixed
+  bottom: -100%
+  transition: .5s
 
-    &.toggled
-      bottom: 0
+  &.toggled
+    bottom: 0
+    transition: .5s
+
+  .grid
+    display: grid
+    width: 100%
+    height: fit-content
+    grid-template-columns: 1fr 1fr
+    grid-gap: .2rem
+
+    .item
+      position: relative
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      overflow: hidden
+      height: 100%
+
+      img
+        width: 100%
+        height: auto
+
+      .contact-container
+        margin: 50px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
