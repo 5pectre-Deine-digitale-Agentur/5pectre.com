@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Theme Name: 5pectre Blank Theme
+ * Theme Name: 5pectre
  * Theme URI: https://5pectre.com/
  * Description: Das hier ist das Blank-Theme deiner digitalen Agentur 5pectre. Dieses stellt das Entwicklungs-Framework für die Umsetzung von individuell gestalteten Wordpress-Themes dar.
  * Version: 2.0
@@ -20,6 +20,7 @@ html, body {
   font-size: 16px;
   color: #2D2A2B;
   overscroll-behavior: none;
+  cursor: none;
 }
 html main, body main {
   width: 100%;
@@ -236,6 +237,33 @@ a.button .icon .overflow {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  z-index: 2000;
+  user-select: none;
+  pointer-events: none;
+}
+
+.follower {
+  position: fixed;
+  z-index: 1999;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #00D8FF;
+  border-radius: 50%;
+  opacity: 0.7;
+  user-select: none;
+  pointer-events: none;
 }
 
 nav {
@@ -685,6 +713,7 @@ nav .wrapper .notice p {
 #clients.front-page .show-more.active .client-list {
   height: 300px;
   transition: 0.5s;
+  padding-bottom: 50px;
 }
 #clients.front-page .show-more.active .icon {
   background: #000000;

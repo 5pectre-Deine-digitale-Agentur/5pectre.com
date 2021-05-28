@@ -6,6 +6,19 @@ const scroller = new LocomotiveScroll({
   smooth: true
 });
 
+// Navigation
+window.addEventListener("scroll", function() {
+  if(window.pageYOffset > 15) {
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(-50px)";
+    document.querySelector('.navigation').style.opacity = "0";
+  } else {
+    document.querySelector('.navigation').style.transition = "0.5s";
+    document.querySelector('.navigation').style.transform = "translateY(0)";
+    document.querySelector('.navigation').style.opacity = "1";
+  };
+});
+
 //Trigger
 let navTrigger = document.querySelector(".menu-link");
 let burger = document.querySelector('.ham');
@@ -98,17 +111,4 @@ item.forEach((item, i) => {
   item.addEventListener('click', ()=> {
     item.classList.toggle('active');
   })
-});
-
-// Navigation
-window.addEventListener("scroll", function() {
-  if(window.pageYOffset > 15) {
-    document.querySelector('.navigation').style.transition = "0.5s";
-    document.querySelector('.navigation').style.transform = "translateY(-50px)";
-    document.querySelector('.navigation').style.opacity = "0";
-  } else {
-    document.querySelector('.navigation').style.transition = "0.5s";
-    document.querySelector('.navigation').style.transform = "translateY(0)";
-    document.querySelector('.navigation').style.opacity = "1";
-  };
 });

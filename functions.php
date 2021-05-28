@@ -113,6 +113,9 @@ function my_footer_enqueue_footer()
     wp_register_script( 'Spectreblankanimationscripts', get_template_directory_uri() . '/js/animation.js', array(), '1.0', true );
     wp_enqueue_script( 'Spectreblankanimationscripts' );
 
+    wp_register_script( 'Cursor', get_template_directory_uri() . '/js/cursor.js', array(), '1.0', true );
+    wp_enqueue_script( 'Cursor' );
+
     wp_register_script( 'fontawesome', 'https://kit.fontawesome.com/8928e65948.js', array(), '1.0', true );
     wp_enqueue_script( 'fontawesome' );
 
@@ -152,6 +155,9 @@ function Spectreblank_styles()
 {
     wp_register_style('Spectreblank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('Spectreblank');
+
+    // wp_register_style('locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.css', array(), '1.0', 'all');
+    // wp_enqueue_style('locomotive-scroll');
 }
 
 // Load Spectre Blank Admin Stylesheet

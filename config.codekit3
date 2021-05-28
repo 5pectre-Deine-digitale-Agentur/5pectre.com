@@ -580,6 +580,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/js\/cursor-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/cursor-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/cursor.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/cursor-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/footerScripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2289,6 +2311,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/01_Basics\/cursor.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/01_Basics\/cursor.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/01_Basics\/scrollbar.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -2386,6 +2422,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/sass\/03_Sections\/footer.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/sass\/03_Sections\/footer-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/sass\/03_Sections\/footer.sass" : {
       "aP" : 0,
@@ -2594,6 +2642,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/content.php",
+      "oF" : 0
+    },
+    "\/sections\/cursor.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/cursor.php",
       "oF" : 0
     },
     "\/sections\/navigation.php" : {
