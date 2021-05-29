@@ -188,6 +188,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/details.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/details-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/footer.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -197,6 +209,30 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/footer-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/gallery-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/gallery-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/gallery.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/gallery-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -263,6 +299,18 @@
       "oA" : 0,
       "oAP" : "\/css\/style.css.map",
       "oF" : 0
+    },
+    "\/css\/testimonial.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/testimonial-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/css\/variables.css" : {
       "aP" : 1,
@@ -2009,6 +2057,17 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2325,6 +2384,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/01_Basics\/page.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/01_Basics\/page.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/01_Basics\/scrollbar.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -2423,6 +2496,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/03_Sections\/details.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/03_Sections\/details.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/03_Sections\/footer.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2444,6 +2531,20 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/sass\/03_Sections\/footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/03_Sections\/gallery.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/03_Sections\/gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -2500,6 +2601,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/sass\/03_Sections\/team.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/03_Sections\/testimonial.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/03_Sections\/testimonial.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -2620,6 +2735,22 @@
       "oAP" : "\/sections\/02_Agency\/team.php",
       "oF" : 0
     },
+    "\/sections\/03_work\/details.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/details.php",
+      "oF" : 0
+    },
+    "\/sections\/03_work\/gallery.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/gallery.php",
+      "oF" : 0
+    },
     "\/sections\/03_work\/portfolio.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2628,12 +2759,36 @@
       "oAP" : "\/sections\/03_work\/portfolio.php",
       "oF" : 0
     },
+    "\/sections\/03_work\/related.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/related.php",
+      "oF" : 0
+    },
+    "\/sections\/03_work\/testimonial.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/testimonial.php",
+      "oF" : 0
+    },
     "\/sections\/04_MoinMoin\/contact.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/04_MoinMoin\/contact.php",
+      "oF" : 0
+    },
+    "\/sections\/button.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/button.php",
       "oF" : 0
     },
     "\/sections\/content.php" : {
@@ -2658,6 +2813,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/navigation.php",
+      "oF" : 0
+    },
+    "\/single-Spectre-blank.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-Spectre-blank.php",
       "oF" : 0
     },
     "\/single-work.php" : {

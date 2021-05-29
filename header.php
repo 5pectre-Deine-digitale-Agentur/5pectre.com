@@ -19,6 +19,8 @@
 
 		<!-- Enque Header -->
 		<?php wp_head(); ?>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
 
 	</head>
 	<body <?php body_class(); ?>>

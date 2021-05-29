@@ -1,0 +1,13 @@
+#gallery.single .gallery-item {
+  padding-bottom: 100px;
+}
+#gallery.single .gallery-item img {
+  width: 100%;
+  height: auto;
+}
+#gallery.single .gallery-item .large-text {
+  width: calc(100% - 400px);
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
