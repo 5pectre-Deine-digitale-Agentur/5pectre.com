@@ -1,0 +1,12 @@
+#navigation {
+  width: 100%;
+  padding: 20px 0;
+}
+#navigation .container .row .nav-img-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#navigation .container .row .nav-img-col img.logo {
+  max-height: 100%;
+}

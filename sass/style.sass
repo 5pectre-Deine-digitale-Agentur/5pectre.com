@@ -1,20 +1,40 @@
-// IMPORTS
-@import 'breakpoints'
-@import 'variables'
-@import 'basics'
-@import 'agency'
-@import 'front-page'
-@import 'navigation'
-@import 'team-slider'
-@import 'scrollbar'
-@import 'cursor'
-@import 'keyframes'
-@import 'contact'
-@import 'page'
-@import '404'
-@import 'portfolio'
-@import 'preloader'
-@import 'button'
-@import 'copyright'
-@import 'slider'
-@import 'project'
+/*!
+  Theme Name: 5pectre
+  Theme URI: https://5pectre.com/
+  Description: Das hier ist das Blank-Theme deiner digitalen Agentur 5pectre. Dieses stellt das Entwicklungs-Framework für die Umsetzung von individuell gestalteten Wordpress-Themes dar.
+  Version: 2.0
+  Author: Erik Jung
+  Author URI: https://5pectre.com
+  Tags: 5pectre, HTML5, CSS3, PHP, ACF, CF7
+  */
+
+// Basics
+@import '01_Basics/variables.sass'
+@import '01_Basics/breakpoints.sass'
+@import '01_Basics/basics.sass'
+@import '01_Basics/button.sass'
+@import '01_Basics/scrollbar.sass'
+@import '01_Basics/cursor.sass'
+@import '01_Basics/page.sass'
+
+// Navigation
+@import '02_Navigation/navigation.sass'
+
+// sections
+@import '03_Sections/hero.sass'
+@import '03_Sections/about.sass'
+@import '03_Sections/portfolio.sass'
+@import '03_Sections/clients.sass'
+@import '03_Sections/contact.sass'
+@import '03_Sections/competence.sass'
+@import '03_Sections/team.sass'
+@import '03_Sections/skillz.sass'
+@import '03_Sections/details.sass'
+@import '03_Sections/gallery.sass'
+@import '03_Sections/testimonial.sass'
+
+//Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+// External Libaries

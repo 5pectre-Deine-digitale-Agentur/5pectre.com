@@ -1,0 +1,82 @@
+#team.agency
+  position: relative
+  margin: 200px 0
+
+  .special-title
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    z-index: -1
+
+    h2
+      font-size: 200px
+      font-weight: 400
+      color: rgba(255,255,255,0) !important
+      -webkit-text-stroke-width: 1px
+      -webkit-text-stroke-color: $black
+
+  .grid-container
+    .grid-item
+      color: #fff
+      padding: 3.5em 1em
+      font-size: 1em
+      font-weight: 700
+
+    .main
+      grid-area: main
+      padding: 0
+      overflow-y: hidden
+
+
+      .items
+        position: relative
+        width: 100%
+        overflow-x: scroll
+        overflow-y: hidden
+        white-space: nowrap
+        transition: all 0.2s
+        transform: scale(0.98)
+        will-change: transform
+        user-select: none
+        position: relative
+        z-index: 20
+
+        &::-webkit-scrollbar
+          display: none
+
+        &.active
+          transform: scale(1)
+
+        .item
+          display: inline-block
+          height: 600px
+          width: 400px
+          margin: 2em 1em
+          position: relative
+          overflow: hidden
+          background: black
+
+          .img
+            position: absolute
+            width: 120%
+            height: auto
+            bottom: -50px
+            left: 50%
+            transform: translateX(-50%)
+
+.data
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  display: flex
+  flex-direction: column
+  text-align: center
+
+  .highlight
+    font-family: $heading
+    font-size: 1.8em
+    letter-spacing: .3em
+    color: #fff
+    text-align: center

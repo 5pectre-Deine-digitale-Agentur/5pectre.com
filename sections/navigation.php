@@ -44,7 +44,7 @@
     </div>
   </div>
 </div>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   window.onload = function(){
     let page = document.querySelector('body').classList.value;
     let items = document.querySelectorAll('.menu-item a');
@@ -60,4 +60,4 @@
       }
     }
   }
-</script>
+</script> -->

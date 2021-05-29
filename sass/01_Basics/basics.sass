@@ -1,0 +1,129 @@
+//Basics
+html, body
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+  font-family: $regular
+  font-weight: 100
+  font-size: $size
+  color: $color4
+  overscroll-behavior: none
+  cursor: none
+
+  main
+    width: 100%
+    max-width: 100vw
+    height: fit-content
+    overflow-x: hidden
+    background: $white
+
+h1
+  font-size: $size * 5
+  line-height: $size * 5 * 1.5
+
+  &.heading
+    font-family: $heading
+
+
+h2
+  font-size: $size * 3
+  line-height: $size * 2.25 * 1.5
+
+  &.heading
+    font-family: $heading
+
+h3
+  font-size: $size * 1.5
+  font-weight: bold
+
+  &.heading
+    font-family: $heading
+
+h4
+  font-size: $size * 1.25
+
+  &.heading
+    font-family: $heading
+
+h5
+  font-size: $size / 1.25
+
+  &.heading
+    font-family: $heading
+
+h6
+  font-size: $size / 1.5 / 1.5
+
+  &.heading
+    font-family: $heading
+
+span, a, p
+  font-size: $size
+  line-height: $size * 1.5
+  text-decoration: none
+  color: inherit
+  list-style: none
+  font-family: $regular
+  font-weight: 100
+  cursor: none
+
+  &.large-text
+    font-size: $size * 2.25
+    line-height: $size * 2.25 * 1.5
+
+  &.bold
+    font-size: 600
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+  display: flex
+  flex-direction: row
+
+  li
+      list-style: none
+      margin: 0
+      padding: 0
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+.wrapper
+  width: calc(100% - 200px)
+  height: 100%
+  margin: auto
+  position: relative
+  z-index: 10
+
+  @include xl
+    width: calc(100% - 200px)
+
+  @include lg
+    width: calc(100% - 200px)
+
+  @include md
+    width: calc(100% - 50px)
+
+  @include md
+    width: calc(100% - 20px)
+
+  @include md
+    width: calc(100% - 10px)
+
+.ninja
+  @include md
+    visibility: hidden
+
+.lego
+  display: block
+
+.titanic
+  float: none
+
+.centered
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
