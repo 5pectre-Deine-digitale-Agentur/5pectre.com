@@ -17,6 +17,22 @@
       "oAP" : "\/404.php",
       "oF" : 0
     },
+    "\/acf-export-2021-05-28.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-export-2021-05-28-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/acf-export-2021-05-29.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-export-2021-05-29-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/admin-style-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2509,18 +2525,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/sass\/03_Sections\/footer.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/sass\/03_Sections\/footer-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/sass\/03_Sections\/footer.sass" : {
       "aP" : 0,

@@ -183,11 +183,8 @@ a.button.mail .icon i {
   font-size: 16px;
 }
 a.button:hover .icon {
-  transition: 0.2s;
-  z-index: 200000;
-}
-a.button:hover .icon i {
-  z-index: 200000;
+  background: #FFFFFF;
+  transition: 0.4s;
 }
 a.button .button-content {
   position: relative;
@@ -196,7 +193,7 @@ a.button .button-content {
   padding-left: 75px;
   padding-right: 25px;
   font-size: 24px;
-  transition: 0.2s;
+  transition: 0.5s;
   z-index: 0;
 }
 a.button .icon {
@@ -207,31 +204,9 @@ a.button .icon {
   top: 50%;
   transform: translateY(-50%);
   border-radius: 25px;
-  background: black;
-  transition: 0.2s;
+  border: 1px solid #000000;
   overflow: hidden;
-}
-a.button .icon i {
-  font-size: 25px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  transition: 0.2s;
-  z-index: 200000;
-}
-a.button .icon .overflow {
-  position: absolute;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 75px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  white-space: nowrap;
+  z-index: 1;
 }
 
 body::-webkit-scrollbar {
@@ -256,9 +231,9 @@ body::-webkit-scrollbar {
 }
 
 .cursor--canvas {
+  z-index: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 10;
 }
 
 #page .wrapper {

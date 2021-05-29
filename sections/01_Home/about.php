@@ -20,10 +20,8 @@
       </div>
     <?php endif; ?>
 
-    <a class="button" href="#">
+    <a class="button link" href="#">
       <div class="icon">
-        <i class="fas fa-angle-right"></i>
-        <span class="overflow">Button</span>
       </div>
       <span class="button-content">Button</span>
     </a>
