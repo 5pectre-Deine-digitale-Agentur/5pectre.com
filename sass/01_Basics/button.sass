@@ -10,7 +10,7 @@ a.button
 
     .icon
       i
-        left: 21px
+        left: 15px
         font-size: 16px
 
   &.mail
@@ -23,13 +23,12 @@ a.button
 
   &:hover
     .icon
-      width: 100%
-      background: $black
-      transition: .5s
-
-      i
-        left: 25px
-        transition: .5s
+      background: $white
+      transition: .4s
+  //
+  //     i
+  //       left: 25px
+  //       transition: .5s
 
   .button-content
     position: relative
@@ -49,28 +48,6 @@ a.button
     top: 50%
     transform: translateY(-50%)
     border-radius: 25px
-    background: black
-    transition: .5s
+    border: 1px solid $black
     overflow: hidden
     z-index: 1
-
-    i
-      font-size: 25px
-      color: $white
-      position: absolute
-      top: 50%
-      transform: translateY(-50%)
-      left: 20px
-      transition: .5s
-
-    .overflow
-      position: absolute
-      position: absolute
-      top: 50%
-      transform: translateY(-50%)
-      left: 75px
-      font-size: $size * 1.5
-      font-weight: bold
-      font-family: $regular
-      color: white
-      white-space: nowrap

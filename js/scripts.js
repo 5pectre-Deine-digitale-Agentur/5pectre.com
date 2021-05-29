@@ -1,11 +1,5 @@
-(function ($, root, undefined) {
-	
-	$(function () {
-		
-		'use strict';
-		
-		// DOM ready, take it away
-		
-	});
-	
-})(jQuery, this);
+if(jQuery(window).width() <= 1200){
+  setTimeout(function(){
+    window.location.assign("https://m.5pectre.com/");
+  }, 1100);
+}
