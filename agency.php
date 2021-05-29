@@ -3,7 +3,7 @@
 get_header(); ?>
 
 	<main role="main" data-scroll-container>
-		
+
     <?php
       include 'sections/02_Agency/hero.php';
       include 'sections/02_Agency/competence.php';

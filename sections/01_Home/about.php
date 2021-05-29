@@ -23,7 +23,7 @@
     <a class="button" href="#">
       <div class="icon">
         <i class="fas fa-angle-right"></i>
-        <!-- <span class="overflow">Button</span> -->
+        <span class="overflow">Button</span>
       </div>
       <span class="button-content">Button</span>
     </a>

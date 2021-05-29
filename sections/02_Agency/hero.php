@@ -4,19 +4,36 @@
   $punchline = get_sub_field('punchline');
   $mission = get_sub_field('mission');
   ?>
-  <section id="hero" class="front-page">
-    <div class="wrapper">
-      <div class="title">
-        <h1 class="heading"><?php echo $punchline ?></h1>
-      </div>
-      <div class="mission">
-        <span class="large-text"><?php echo $mission ?></span>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="https://images.pexels.com/photos/2373356/pexels-photo-2373356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-    </div>
-  </section>
 
-  <?php endwhile; ?>
+<?php if( get_sub_field('punchline') or get_sub_field('mission') or get_sub_field('image')): ?>
+
+<section id="hero" class="front-page">
+  <div class="wrapper">
+
+    <?php if( get_sub_field('punchline') ): ?>
+    <div class="title">
+      <h1 class="heading"><?php echo get_sub_field('punchline') ?></h1>
+    </div>
+    <?php endif; ?>
+
+    <?php if( get_sub_field('mission') ): ?>
+    <div class="mission">
+      <span class="large-text"><?php echo get_sub_field('mission') ?></span>
+    </div>
+    <?php endif; ?>
+
+  </div>
+
+  <?php
+$image = get_sub_field('image');
+if( !empty( $image ) ): ?>
+  <div class="hero-image">
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+  </div>
+  <?php endif; ?>
+
+</section>
+
+<?php endif; ?>
+<?php endwhile; ?>
 <?php endif; ?>
