@@ -1,7 +1,8 @@
 <?php if( have_rows('clients') ):
   while( have_rows('clients') ): the_row();?>
 
-<?php if( get_sub_field('titel')): ?>
+<?php $client = have_rows('client');
+ if( get_sub_field('titel') or !empty( $client )): ?>
 
 <section id="clients" class="front-page">
   <div class="wrapper">

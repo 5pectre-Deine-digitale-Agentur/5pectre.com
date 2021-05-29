@@ -1,9 +1,48 @@
+<?php if( have_rows('skillz') ):
+  while( have_rows('skillz') ): the_row();?>
+
+  <?php $skill = have_rows('skill');
+   if( get_sub_field('titel') or !empty( $skill )): ?>
+
 <section id="skillz" class="agency">
   <div class="wrapper">
-    <div class="skill-title">
-      <h2 class="heading">Wir können dir am besten helfen, wenn..</h2>
-    </div>
-    <div class="skill-row">
+
+<!-- Funktioniert hier auch nicht, ich weiß nicht was los ist. -->
+
+    <?php if( get_sub_field('titel') ): ?>
+
+      <div class="skill-title">
+        <h2 class="heading"><?php echo get_sub_field('titel') ?></h2>
+      </div>
+
+    <?php endif; ?>
+
+    <?php if( have_rows('skill') ):
+      while( have_rows('skill') ): the_row();?>
+
+      <?php if( get_sub_field('titel') or get_sub_field('text')): ?>
+
+        <div class="skill-row">
+          <div class="skill-container accordeon">
+            <div class="skill-preview">
+              <h3 class="heading"><?php echo get_sub_field('titel') ?></h3>
+            </div>
+            <div class="skill-content">
+              <span class="large-text"><?php echo get_sub_field('text') ?></span>
+            </div>
+          </div>
+          <div class="show-more">
+            <div class="icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+
+      <?php endif; ?>
+      <?php endwhile; ?>
+      <?php endif; ?>
+
+    <!-- <div class="skill-row">
       <div class="skill-container accordeon">
         <div class="skill-preview">
           <h3 class="heading">.. du eine App, Software oder Webseite Entwicklen möchtest</h3>
@@ -17,7 +56,7 @@
           <i class="fas fa-chevron-down"></i>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="skill-row">
       <div class="skill-container accordeon">
         <div class="skill-preview">
@@ -65,3 +104,7 @@
     </div>
   </div>
 </section>
+
+<?php endif; ?>
+<?php endwhile; ?>
+<?php endif; ?>

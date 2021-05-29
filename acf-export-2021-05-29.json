@@ -123,13 +123,13 @@
         "description": ""
     },
     {
-        "key": "group_60b1148ab5881",
-        "title": "Portfolio",
+        "key": "group_60b20cdb33714",
+        "title": "Competence",
         "fields": [
             {
-                "key": "field_60b11499139d2",
-                "label": "Portfolio",
-                "name": "portfolio",
+                "key": "field_60b20cf617fa2",
+                "label": "Competence",
+                "name": "competence",
                 "type": "group",
                 "instructions": "",
                 "required": 0,
@@ -142,10 +142,10 @@
                 "layout": "row",
                 "sub_fields": [
                     {
-                        "key": "field_60b114a6139d3",
-                        "label": "Text",
-                        "name": "text",
-                        "type": "textarea",
+                        "key": "field_60b20cff17fa3",
+                        "label": "Titel",
+                        "name": "titel",
+                        "type": "text",
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -156,12 +156,12 @@
                         },
                         "default_value": "",
                         "placeholder": "",
-                        "maxlength": "",
-                        "rows": "",
-                        "new_lines": ""
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
                     },
                     {
-                        "key": "field_60b114bd139d4",
+                        "key": "field_60b20d0617fa4",
                         "label": "Item",
                         "name": "item",
                         "type": "repeater",
@@ -176,69 +176,11 @@
                         "collapsed": "",
                         "min": 0,
                         "max": 0,
-                        "layout": "table",
+                        "layout": "row",
                         "button_label": "",
                         "sub_fields": [
                             {
-                                "key": "field_60b114d9139d5",
-                                "label": "Link",
-                                "name": "link",
-                                "type": "link",
-                                "instructions": "",
-                                "required": 0,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "return_format": "url"
-                            },
-                            {
-                                "key": "field_60b1151d139d6",
-                                "label": "Image",
-                                "name": "image",
-                                "type": "image",
-                                "instructions": "",
-                                "required": 0,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "return_format": "array",
-                                "preview_size": "medium",
-                                "library": "all",
-                                "min_width": "",
-                                "min_height": "",
-                                "min_size": "",
-                                "max_width": "",
-                                "max_height": "",
-                                "max_size": "",
-                                "mime_types": ""
-                            },
-                            {
-                                "key": "field_60b11562139d7",
-                                "label": "Datum",
-                                "name": "datum",
-                                "type": "text",
-                                "instructions": "",
-                                "required": 0,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "default_value": "",
-                                "placeholder": "",
-                                "prepend": "",
-                                "append": "",
-                                "maxlength": ""
-                            },
-                            {
-                                "key": "field_60b11571139d8",
+                                "key": "field_60b20d1717fa5",
                                 "label": "Titel",
                                 "name": "titel",
                                 "type": "text",
@@ -257,7 +199,7 @@
                                 "maxlength": ""
                             },
                             {
-                                "key": "field_60b1157c139d9",
+                                "key": "field_60b20d2117fa6",
                                 "label": "Text",
                                 "name": "text",
                                 "type": "textarea",
@@ -283,9 +225,229 @@
         "location": [
             [
                 {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "agency.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_60b2064a5f319",
+        "title": "Contact",
+        "fields": [
+            {
+                "key": "field_60b20650ac3a9",
+                "label": "Contact",
+                "name": "contact",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60b2065bac3aa",
+                        "label": "Titel",
+                        "name": "titel",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60b20667ac3ab",
+                        "label": "Text",
+                        "name": "text",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_60b2066fac3ac",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
                     "param": "page_type",
                     "operator": "==",
                     "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_60b24a5143202",
+        "title": "Skillz",
+        "fields": [
+            {
+                "key": "field_60b24a6d263d4",
+                "label": "Skillz",
+                "name": "skillz",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60b24a94263d5",
+                        "label": "Titel",
+                        "name": "titel",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60b24a9f263d6",
+                        "label": "Skill",
+                        "name": "skill",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_60b24ab0263d7",
+                                "label": "Titel",
+                                "name": "titel",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_60b24af5263d8",
+                                "label": "Text",
+                                "name": "text",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "agency.php"
                 }
             ]
         ],
