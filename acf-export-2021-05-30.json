@@ -1,0 +1,171 @@
+[
+    {
+        "key": "group_60b36a52c136c",
+        "title": "Gallery",
+        "fields": [
+            {
+                "key": "field_60b36a5af9264",
+                "label": "gallery",
+                "name": "gallery",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_60b36adcf9265",
+                        "label": "Section Type",
+                        "name": "section_type",
+                        "type": "button_group",
+                        "instructions": "Wähle ein Ausgabeformat",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Galerie": "Galerie",
+                            "Bild": "Bild"
+                        },
+                        "allow_null": 1,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "label"
+                    },
+                    {
+                        "key": "field_60b36b5798c67",
+                        "label": "Gallery",
+                        "name": "gallery",
+                        "type": "gallery",
+                        "instructions": "Wähle die Bilder für dein Galerie",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60b36adcf9265",
+                                    "operator": "==",
+                                    "value": "Galerie"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "insert": "append",
+                        "library": "all",
+                        "min": "",
+                        "max": "",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_60b36b9e98c68",
+                        "label": "Gallery Item",
+                        "name": "item",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_60b36adcf9265",
+                                    "operator": "==",
+                                    "value": "Bild"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_60b36bd098c69",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "Wähle ein Bild",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            },
+                            {
+                                "key": "field_60b36be298c6a",
+                                "label": "Beschreibung",
+                                "name": "text",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "spectre-blank"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
