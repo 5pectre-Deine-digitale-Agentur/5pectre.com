@@ -33,14 +33,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/acf-export-2021-05-30.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/acf-export-2021-05-30-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/admin-style-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2769,14 +2761,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/02_Agency\/skillz.php",
-      "oF" : 0
-    },
-    "\/sections\/02_Agency\/team.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/sections\/02_Agency\/team.php",
       "oF" : 0
     },
     "\/sections\/03_work\/details.php" : {

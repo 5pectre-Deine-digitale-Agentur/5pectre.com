@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "key": "group_60b36a52c136c",
         "title": "Gallery",
         "fields": [
@@ -8,6 +9,16 @@
                 "label": "gallery",
                 "name": "gallery",
                 "type": "repeater",
+=======
+        "key": "group_60b366edb3ab9",
+        "title": "Team",
+        "fields": [
+            {
+                "key": "field_60b366f66d3fb",
+                "label": "Team",
+                "name": "team",
+                "type": "group",
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -16,6 +27,7 @@
                     "class": "",
                     "id": ""
                 },
+<<<<<<< HEAD
                 "collapsed": "",
                 "min": 0,
                 "max": 0,
@@ -29,12 +41,24 @@
                         "type": "button_group",
                         "instructions": "Wähle ein Ausgabeformat",
                         "required": 1,
+=======
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_60b367026d3fc",
+                        "label": "Titel",
+                        "name": "titel",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                         "conditional_logic": 0,
                         "wrapper": {
                             "width": "",
                             "class": "",
                             "id": ""
                         },
+<<<<<<< HEAD
                         "choices": {
                             "Galerie": "Galerie",
                             "Bild": "Bild"
@@ -95,11 +119,28 @@
                                 }
                             ]
                         ],
+=======
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_60b367766d3fd",
+                        "label": "Item",
+                        "name": "item",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                         "wrapper": {
                             "width": "",
                             "class": "",
                             "id": ""
                         },
+<<<<<<< HEAD
                         "layout": "block",
                         "sub_fields": [
                             {
@@ -108,6 +149,20 @@
                                 "name": "image",
                                 "type": "image",
                                 "instructions": "Wähle ein Bild",
+=======
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_60b367836d3fe",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                                 "required": 0,
                                 "conditional_logic": 0,
                                 "wrapper": {
@@ -127,10 +182,16 @@
                                 "mime_types": ""
                             },
                             {
+<<<<<<< HEAD
                                 "key": "field_60b36be298c6a",
                                 "label": "Beschreibung",
                                 "name": "text",
                                 "type": "textarea",
+=======
+                                "key": "field_60b3678e6d3ff",
+                                "label": "Name",
+                                "name": "name",
+                                "type": "text",
                                 "instructions": "",
                                 "required": 0,
                                 "conditional_logic": 0,
@@ -141,9 +202,35 @@
                                 },
                                 "default_value": "",
                                 "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_60b367a06d400",
+                                "label": "Position",
+                                "name": "position",
+                                "type": "text",
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+<<<<<<< HEAD
                                 "maxlength": "",
                                 "rows": "",
                                 "new_lines": ""
+=======
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                             }
                         ]
                     }
@@ -153,9 +240,15 @@
         "location": [
             [
                 {
+<<<<<<< HEAD
                     "param": "post_type",
                     "operator": "==",
                     "value": "spectre-blank"
+=======
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "agency.php"
+>>>>>>> e0ac595d146e525804128bca0c1744e8a1049018
                 }
             ]
         ],
