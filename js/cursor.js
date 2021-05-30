@@ -69,7 +69,7 @@ const initCanvas = () => {
     radius
   );
 
-  polygon.fillColor = strokeColor;
+  polygon.strokeColor = strokeColor;
   polygon.smooth();
   group = new paper.Group([polygon]);
   group.applyMatrix = false;
@@ -170,8 +170,20 @@ const initHovers = () => {
     isStuck = true;
   };
 
+  const handleNavEnter = el => {
+    const nItem = el.currentTarget;
+    const nItemBox = nItem.getBoundingClientRect();
+    stuckX = Math.round(nItemBox.left + nItemBox.width / 2);
+    stuckY = Math.round(nItemBox.top + nItemBox.height / 2);
+    isStuck = true;
+  };
+
   // reset isStuck on mouseLeave
   const handleMouseLeave = () => {
+    isStuck = false;
+  };
+
+  const handleNavLeave = () => {
     isStuck = false;
   };
 
@@ -180,6 +192,12 @@ const initHovers = () => {
   linkItems.forEach(item => {
     item.addEventListener("mouseenter", handleMouseEnter);
     item.addEventListener("mouseleave", handleMouseLeave);
+  });
+
+  const hamItems = document.querySelectorAll(".ham");
+  hamItems.forEach(item => {
+    item.addEventListener("mouseenter", handleNavEnter);
+    item.addEventListener("mouseleave", handleNavLeave);
   });
 };
 
