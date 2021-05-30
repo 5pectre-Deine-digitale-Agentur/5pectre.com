@@ -1,8 +1,10 @@
 <nav>
   <div class="wrapper">
     <div class="logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logos/stamp.svg" alt="">
-        <p class="menu-link">
+      <a href="<?php echo get_home_url(); ?>">
+        <img class="ham" src="<?php echo get_template_directory_uri(); ?>/img/logos/stamp.svg" alt="">
+        </a>
+        <p class="menu-link ham">
           <svg class="ham hamRotate" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
             <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
             <path class="line middle" d="m 30,50 h 40" />

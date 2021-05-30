@@ -38,9 +38,8 @@ navTrigger.addEventListener("click",()=>{
     document.querySelector('.navigation').style.opacity = "1";
   }
 })
-let workTrigger=document.querySelector(".work-link");
-workTrigger.addEventListener("click",()=>{
 
+function work(){
   document.querySelector("#work").classList.toggle("toggled");
   if (document.querySelector('.ham.hamRotate').classList.contains('active')) {
     document.querySelector('.ham.hamRotate').classList.remove('active');
@@ -53,6 +52,10 @@ workTrigger.addEventListener("click",()=>{
     document.querySelector('.navigation').style.transform = "translateY(-50px)";
     document.querySelector('.navigation').style.opacity = "0";
   }
+}
+let workTrigger=document.querySelector(".work-link");
+workTrigger.addEventListener("click",()=>{
+  work();
 })
 let moinTrigger=document.querySelector(".moin-link");
 moinTrigger.addEventListener("click",()=>{
