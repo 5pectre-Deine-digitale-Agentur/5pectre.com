@@ -32,7 +32,7 @@
 
               <?php if( $images ): ?>
                 <?php foreach( $images as $image ): ?>
-                  
+
                   <div class="item">
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
                   </div>
@@ -43,7 +43,9 @@
             </div>
             <p class="large-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-      <?php  }?>
+      <?php  } else {
+        echo "";
+      }?>
 
 
       <!-- <div class="gallery-item">
