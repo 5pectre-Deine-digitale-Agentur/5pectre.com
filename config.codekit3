@@ -33,6 +33,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-export-2021-05-30.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-export-2021-05-30-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/admin-style-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -401,6 +409,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/icons\/circle.png" : {
+      "ft" : 32768,
+      "iS" : 114414,
+      "oA" : 0,
+      "oAP" : "\/img\/icons\/circle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/icons\/circle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/icons\/circle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/icons\/favicons\/android-chrome-192x192.png" : {
       "ft" : 32768,
       "iS" : 2869,
@@ -698,6 +729,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/js\/footerScripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/footerScripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/footerScripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -705,6 +747,996 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/js\/footerScripts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/.github\/ISSUE_TEMPLATE\/bug_report.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/.github\/ISSUE_TEMPLATE\/bug_report.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/lib\/anime-master\/.github\/ISSUE_TEMPLATE\/feature_request.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/.github\/ISSUE_TEMPLATE\/feature_request.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/lib\/anime-master\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/.gitignore",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/bower.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/js\/lib\/anime-master\/bower-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/js\/lib\/anime-master\/build.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/build-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/CNAME",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/css\/anime-theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/css\/anime-theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/css\/animejs.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/css\/animejs-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/css\/documentation.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/css\/documentation-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/css\/website.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/css\/website-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Bold.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Bold.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-BoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-BoldItalic.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Italic.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Italic.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Regular.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/InputMono-Regular.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-Regular.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-Regular.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBold.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBoldItalic.woff",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/fonts\/Roobert-SemiBoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/anime-mini-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/anime-mini-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-header-animation.gif" : {
+      "ft" : 4194304,
+      "iS" : 3112892,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-header-animation.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-logo-animation.gif" : {
+      "ft" : 4194304,
+      "iS" : 1145096,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-logo-animation.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-release.gif" : {
+      "ft" : 4194304,
+      "iS" : 2538238,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/animejs-v3-release.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 12587,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 2174,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-codepen.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-codepen.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-css.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-css.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-docs.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-docs.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-documentation.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-documentation.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-download.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-download.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-cubic.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-cubic.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-elastic.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-elastic.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-spring.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-spring.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-steps.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-easing-steps.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-examples.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-examples.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-github.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-github.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-html.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-html.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-js.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-js.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-center.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-center.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-easing.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-easing.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-forward.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-forward.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-grid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-index.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-index.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-reverse.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-staggering-reverse.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-svg.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-svg.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/icons\/icon-twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/img\/social-media-image.png" : {
+      "ft" : 32768,
+      "iS" : 194079,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/img\/social-media-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime.player.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime.player-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.1.0.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.1.0-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.1.3.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.1.3-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.0.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.0-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.1.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.1-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.2.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.0.2-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.1.0.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.1.0-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.2.0.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.2.2.0-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.3.0.0-alpha.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/anime\/anime.3.0.0-alpha-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/documentation.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/documentation-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/beautify-html.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/beautify-html-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/highlight.pack.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/highlight.pack-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/stats.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/vendors\/stats.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/assets\/js\/website.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/assets\/js\/website-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/advanced-staggering-2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/advanced-staggering-2.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/advanced-staggering.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/advanced-staggering.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/animejs-mgs-logo-animation.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/animejs-mgs-logo-animation.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/animejs-v2-logo-animation.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/animejs-v2-logo-animation.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/animejs-v3-logo-animation.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/animejs-v3-logo-animation.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/built-in-easings.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/built-in-easings.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/callbacks.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/callbacks.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/colors-test.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/colors-test.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/complex-properties.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/complex-properties.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/directions-testing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/directions-testing.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/DOM-stress-test.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/DOM-stress-test.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/ease-visualizer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/ease-visualizer.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/follow-scroll.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/follow-scroll.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/keyframes.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/keyframes.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/layered-animations.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/layered-animations.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/speed-test.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/speed-test.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/stagger-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/stagger-demo.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/stagger-grid-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/stagger-grid-demo.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/stagger-tests.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/stagger-tests.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/staggered-animations.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/staggered-animations.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/staggered-easing-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/staggered-easing-demo.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/svg-lines-animations.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/svg-lines-animations.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/svg-path-animation-responsive.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/svg-path-animation-responsive.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/svg-path-animation.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/svg-path-animation.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/time-control.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/time-control.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/timeline.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/timeline.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/examples\/transforms-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/examples\/transforms-demo.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/documentation\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/documentation\/index.html",
+      "oF" : 0
+    },
+    "\/js\/lib\/anime-master\/lib\/anime.es.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/lib\/anime.es-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/lib\/anime.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/lib\/anime-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/lib\/anime.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/lib\/anime.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/lib\/anime-master\/LICENSE.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/LICENSE.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/lib\/anime-master\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/js\/lib\/anime-master\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/js\/lib\/anime-master\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/lib\/anime-master\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/lib\/anime-master\/src\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/js\/lib\/anime-master\/src\/index-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2715,6 +3747,14 @@
       "oAP" : "\/sections\/01_Home\/clients.php",
       "oF" : 0
     },
+    "\/sections\/01_Home\/contact_r.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/01_Home\/contact_r.php",
+      "oF" : 0
+    },
     "\/sections\/01_Home\/contact.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2739,6 +3779,14 @@
       "oAP" : "\/sections\/01_Home\/portfolio.php",
       "oF" : 0
     },
+    "\/sections\/01_Home\/texture.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/01_Home\/texture.php",
+      "oF" : 0
+    },
     "\/sections\/02_Agency\/competence.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2761,6 +3809,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/02_Agency\/skillz.php",
+      "oF" : 0
+    },
+    "\/sections\/02_Agency\/team.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/02_Agency\/team.php",
       "oF" : 0
     },
     "\/sections\/03_work\/details.php" : {
@@ -2801,6 +3857,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/03_work\/testimonial.php",
+      "oF" : 0
+    },
+    "\/sections\/03_work\/texture.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/03_work\/texture.php",
       "oF" : 0
     },
     "\/sections\/04_MoinMoin\/contact.php" : {
@@ -2906,17 +3970,6 @@
       "oA" : 0,
       "oAP" : "\/template-demo.php",
       "oF" : 0
-    },
-    "\/Users\/erikjung\/node_modules\/cssnano\/dist\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/Users\/erikjung\/node_modules\/cssnano\/dist\/index-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     }
   },
   "hooks" : [

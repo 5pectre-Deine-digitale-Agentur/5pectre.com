@@ -4,7 +4,7 @@
   <?php $skill = have_rows('skill');
    if( get_sub_field('titel') or !empty( $skill )): ?>
 
-<section id="skillz" class="agency">
+<section id="skillz" class="agency" data-scroll-section>
   <div class="wrapper">
 
 <!-- Funktioniert hier auch nicht, ich weiß nicht was los ist. -->
@@ -12,7 +12,7 @@
     <?php if( get_sub_field('titel') ): ?>
 
       <div class="skill-title">
-        <h2 class="heading"><?php echo get_sub_field('titel') ?></h2>
+        <h2 data-scroll class="heading"><?php echo get_sub_field('titel') ?></h2>
       </div>
 
     <?php endif; ?>
@@ -25,10 +25,10 @@
         <div class="skill-row">
           <div class="skill-container accordeon">
             <div class="skill-preview">
-              <h3 class="heading"><?php echo get_sub_field('titel') ?></h3>
+              <h3 data-scroll class="heading"><?php echo get_sub_field('titel') ?></h3>
             </div>
             <div class="skill-content">
-              <span class="large-text"><?php echo get_sub_field('text') ?></span>
+              <span data-scroll class="large-text"><?php echo get_sub_field('text') ?></span>
             </div>
           </div>
           <div class="show-more">

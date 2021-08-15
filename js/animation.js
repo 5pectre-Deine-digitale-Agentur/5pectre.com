@@ -3,8 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 const pageContainer = document.querySelector('[data-scroll-container]');
 const scroller = new LocomotiveScroll({
   el: pageContainer,
-  smooth: true,
-  multiplier: 1.3
+  smooth: true
 });
 
 // Navigation

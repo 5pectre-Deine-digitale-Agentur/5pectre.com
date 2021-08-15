@@ -1,13 +1,7 @@
-<!--
-			TODO: Navigation Desktop
-			TODO: Navigation Mobil/Tablet
-			TODO: MetaTags für Google und Facebook
--->
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
-		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+		<title><?php wp_title(''); ?></title>
 
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

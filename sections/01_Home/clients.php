@@ -5,17 +5,17 @@
   $images = get_sub_field('client');
   ?>
 
-    <section id="clients" class="front-page">
+    <section id="clients" class="front-page" data-scroll-section>
       <div class="wrapper">
         <div class="title">
-          <h2 class="heading"><?php echo $title ?></h2>
+          <h2 class="heading" data-scroll><?php echo $title ?></h2>
         </div>
         <div class="grid">
 
           <?php if( $images ): ?>
             <?php foreach( $images as $image ): ?>
               <div class="item">
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                <img data-scroll src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
               </div>
             <?php endforeach; ?>
           <?php endif; ?>
@@ -26,17 +26,16 @@
           <div class="client-list">
             <div class="grid">
 
-              <?php
-              $args = array( 'post_type' => 'Spectre-blank', 'posts_per_page' => 4, 'orderby' => 'rand' );
-              $loop = new WP_Query( $args );
+              <?php if( have_rows('client_list') ):
+                while( have_rows('client_list') ): the_row();
 
-              while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                $client = get_sub_field('client_name');
+                ?>
 
-                <span class="client"><?php echo the_title(); ?></span>
+                  <span class="client"><?php echo $client; ?></span>
 
-              <?php
-              wp_reset_query();
-              endwhile; ?>
+                  <?php endwhile;
+                endif; ?>
 
             </div>
           </div>

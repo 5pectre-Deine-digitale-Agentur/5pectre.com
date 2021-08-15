@@ -7,18 +7,18 @@
 
 <?php if( get_sub_field('punchline') or get_sub_field('mission') or get_sub_field('image')): ?>
 
-<section id="hero" class="front-page">
+<section id="hero" class="front-page" data-scroll-section>
   <div class="wrapper">
 
     <?php if( get_sub_field('punchline') ): ?>
     <div class="title">
-      <h1 class="heading"><?php echo get_sub_field('punchline') ?></h1>
+      <h1 class="heading" data-scroll><?php echo get_sub_field('punchline') ?></h1>
     </div>
     <?php endif; ?>
 
     <?php if( get_sub_field('mission') ): ?>
     <div class="mission">
-      <span class="large-text"><?php echo get_sub_field('mission') ?></span>
+      <span class="large-text" data-scroll><?php echo get_sub_field('mission') ?></span>
     </div>
     <?php endif; ?>
 
@@ -28,7 +28,7 @@
 $image = get_sub_field('image');
 if( !empty( $image ) ): ?>
   <div class="hero-image">
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+    <img data-scroll src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
   </div>
   <?php endif; ?>
 

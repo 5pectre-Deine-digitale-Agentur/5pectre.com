@@ -122,14 +122,17 @@ function my_footer_enqueue_footer()
     wp_register_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js', array(), '1.0', true );
     wp_enqueue_script( 'jquery' );
 
-    wp_register_script( 'animejs', 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js', array(), '1.0', true );
+    wp_register_script( 'animejs', get_template_directory_uri() . '/js/lib/anime-master/lib/anime.min.js', array(), '1.0', false );
     wp_enqueue_script( 'animejs' );
 
     wp_register_script( 'scrollTrigger', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), '1.0', false );
     wp_enqueue_script( 'scrollTrigger' );
 
-    wp_register_script( 'gsap', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js', array(), '1.0', false );
+    wp_register_script( 'gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js', array(), '1.0', false );
     wp_enqueue_script( 'gsap' );
+
+    // wp_register_script( 'CSSRule', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/CSSRulePlugin.min.js', array(), '1.0', false );
+    // wp_enqueue_script( 'CSSRule' );
 
     wp_register_script( 'locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.min.js', array(), '1.0', false );
     wp_enqueue_script( 'locomotive-scroll' );
@@ -156,8 +159,8 @@ function Spectreblank_styles()
     wp_register_style('Spectreblank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('Spectreblank');
 
-    // wp_register_style('locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.css', array(), '1.0', 'all');
-    // wp_enqueue_style('locomotive-scroll');
+    wp_register_style('locomotive-scroll', get_template_directory_uri() . '/js/lib/locomotive-scroll/dist/locomotive-scroll.css', array(), '1.0', 'all');
+    wp_enqueue_style('locomotive-scroll');
 }
 
 // Load Spectre Blank Admin Stylesheet
