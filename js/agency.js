@@ -1,4 +1,4 @@
-// TeamSlider
+// // TeamSlider
 const slider = document.querySelector('.items');
 let isDown = false;
 let startX;

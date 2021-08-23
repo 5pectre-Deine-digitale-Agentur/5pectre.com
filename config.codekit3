@@ -33,14 +33,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/acf-export-2021-05-30.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/acf-export-2021-05-30-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/admin-style-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -167,14 +159,6 @@
       "oAP" : "\/css\/breakpoints-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/css\/breakpoints.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/breakpoints.css.map",
-      "oF" : 0
     },
     "\/css\/button.css" : {
       "aP" : 1,
@@ -316,14 +300,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/style.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/style.css.map",
-      "oF" : 0
-    },
     "\/css\/testimonial.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -347,14 +323,6 @@
       "oAP" : "\/css\/variables-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/css\/variables.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/variables.css.map",
-      "oF" : 0
     },
     "\/fonts\/readme.txt" : {
       "cB" : 0,
@@ -3714,22 +3682,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/search.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/search.php",
-      "oF" : 0
-    },
-    "\/searchform.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/searchform.php",
-      "oF" : 0
     },
     "\/sections\/01_Home\/about.php" : {
       "cB" : 0,

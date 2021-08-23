@@ -18,6 +18,5 @@ get_header(); ?>
 		include 'sections/03_work/related.php';
 		include 'sections/01_Home/contact_r.php';
 		?>
-	</main>
 
 <?php get_footer(); ?>

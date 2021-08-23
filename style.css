@@ -165,8 +165,9 @@ ul li {
 
 .button {
   position: relative;
-  margin-top: 150px;
+  margin-top: 50px;
   width: fit-content;
+  display: inline-block;
 }
 .button.tel {
   margin-top: 50px;
@@ -227,11 +228,47 @@ body::-webkit-scrollbar {
 .cursor--small {
   width: 10px;
   height: 10px;
+  position: absolute;
   left: -5px;
   top: -5px;
   border-radius: 50%;
   z-index: 1100;
   background: #00D8FF;
+  transition: height 0.5s, width 0.5s;
+}
+.cursor--small.drag {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  transition: height 0.3s, width 0.3s;
+}
+.cursor--small.drag::after {
+  content: "Drag";
+  font-weight: bold;
+  font-family: "DM Serif Display", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cursor--small.click {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  transition: height 0.3s, width 0.3s;
+}
+.cursor--small.click::after {
+  content: "Klick";
+  font-weight: bold;
+  font-family: "DM Serif Display", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .cursor--canvas {
@@ -520,6 +557,7 @@ nav .wrapper .notice p {
   width: 100%;
   height: fit-content;
   position: relative;
+  margin-bottom: 100px;
 }
 #about.front-page .section-title {
   width: 60%;
@@ -798,7 +836,7 @@ nav .wrapper .notice p {
 }
 
 #clients.front-page {
-  margin: 100px 0 100px 200px;
+  margin: 100px 0 200px 200px;
   width: calc(100% - 200px);
 }
 #clients.front-page .title {
@@ -900,7 +938,7 @@ nav .wrapper .notice p {
 }
 #contact.front-page .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-gap: 0;
   height: 100%;
 }
@@ -951,7 +989,6 @@ nav .wrapper .notice p {
 
 #moin.side {
   width: 100vw;
-  height: fit-content;
   background: #FFFFFF;
   position: fixed;
   bottom: -100%;
@@ -990,7 +1027,8 @@ nav .wrapper .notice p {
 }
 
 #competence.agency {
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 100px;
   position: relative;
 }
 #competence.agency .competence {
@@ -1030,6 +1068,7 @@ nav .wrapper .notice p {
 #team.agency .special-title h2 {
   font-size: 200px;
   font-weight: 400;
+  line-height: 1em;
   color: rgba(255, 255, 255, 0) !important;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
@@ -1191,38 +1230,6 @@ nav .wrapper .notice p {
   margin-left: 50px;
 }
 
-#gallery.single .gallery-item {
-  padding-bottom: 100px;
-}
-#gallery.single .gallery-item .img-item {
-  width: calc(100% - 400px);
-  height: auto;
-  margin-left: 200px;
-  margin-bottom: 50px;
-}
-#gallery.single .gallery-item .large-text {
-  width: calc(100% - 400px);
-  margin: auto;
-  height: auto;
-}
-#gallery.single .gallery-item .gallery-grid {
-  width: calc(100% - 400px);
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: auto;
-  grid-gap: 2.5rem;
-  padding-bottom: 50px;
-}
-#gallery.single .gallery-item .gallery-grid .item {
-  width: 100%;
-  height: fit-content;
-}
-#gallery.single .gallery-item .gallery-grid .item img {
-  width: 100%;
-  height: auto;
-}
-
 #testimonial.single {
   height: 100vh;
   padding: 150px 0;
@@ -1241,4 +1248,52 @@ nav .wrapper .notice p {
 }
 #testimonial.single .wrapper .testimonial p {
   margin-top: 0;
+}
+
+#gallery.single .gallery-item {
+  padding-bottom: 100px;
+}
+#gallery.single .gallery-item .item__container {
+  width: calc(100% - 400px);
+  height: auto;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#gallery.single .gallery-item .item__container .img-item {
+  width: 80%;
+  margin: 10% 0;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.2);
+}
+#gallery.single .gallery-item .large-text {
+  width: calc(100% - 400px);
+  margin: auto;
+  height: auto;
+}
+#gallery.single .gallery-item .gallery-grid {
+  width: calc(100% - 400px);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  grid-gap: 2.5rem;
+  padding-bottom: 50px;
+}
+#gallery.single .gallery-item .gallery-grid .item {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+#gallery.single .gallery-item .gallery-grid .item img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.2);
 }

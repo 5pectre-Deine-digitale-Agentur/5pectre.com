@@ -7,7 +7,7 @@
       <div class="page grid">
         <div class="left-col">
           <div class="addition">
-  					<?php echo the_field('additional_information');?>
+  					<?php echo the_field('left-col');?>
           </div>
         </div>
         <div class="right-col">

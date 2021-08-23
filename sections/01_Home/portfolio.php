@@ -8,7 +8,7 @@
         while ( $loop->have_posts() ) : $loop->the_post(); ?>
           <?php if( $count % 3 == 0 || $num % 3 == 0 ) : ?>
 
-          <a href="<?php the_permalink(); ?>" class="item item_v" data-scroll>
+          <a href="<?php the_permalink(); ?>" class="item item_v" data-scroll data-scroll data-scroll-speed="0.5">
             <div class="item__image">
               <div class="image" style="background: <?php echo the_field('ci_color'); ?>">
                 <?php //include "texture.php"; ?>
@@ -23,7 +23,7 @@
 
         <?php else : ?>
 
-          <a href="<?php the_permalink(); ?>" class="item item_h" data-scroll>
+          <a href="<?php the_permalink(); ?>" class="item item_h" data-scroll data-scroll data-scroll-speed="1">
             <div class="item__image">
               <div class="image" style="background: <?php echo the_field('ci_color'); ?>">
                 <?php //include "texture.php"; ?>
@@ -45,8 +45,7 @@
 
       $text = get_sub_field('text')?>
 
-
-        <div class="portfolio">
+        <div class="portfolio" data-scroll data-scroll-speed="1">
           <div class="text-wrapper">
               <span class="large-text"><?php echo $text ?></span>
           </div>

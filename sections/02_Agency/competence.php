@@ -1,52 +1,34 @@
 <?php if( have_rows('competence') ):
   while( have_rows('competence') ): the_row();?>
 
-  <?php $item = have_rows('item');
-   if( get_sub_field('titel') or !empty( $item )): ?>
+  <section id="competence" class="agency" data-scroll-section>
+    <div class="wrapper">
 
-<section id="competence" class="agency" data-scroll-section>
-  <div class="wrapper">
-
-    <!-- Keine Ahnung warum das jetzt nicht angezeigt wird -->
-
-    <?php if( get_sub_field('titel') ): ?>
-
-      <div class="competence">
-        <h2 data-scroll class="heading"><?php echo get_sub_field('titel') ?></h2>
+      <div class="competence" data-scroll data-scroll-speed="0">
+        <h2 class="heading"><?php echo get_sub_field('titel') ?></h2>
       </div>
 
-    <?php endif; ?>
+      <div class="competence-listing">
+        <div class="grid-right">
 
-    <?php $item = have_rows('item');
-     if( !empty( $item )): ?>
+          <?php if( have_rows('items') ):
+            while( have_rows('items') ): the_row();?>
 
-    <div class="competence-listing">
-      <div class="grid-right">
+          <div class="item" data-scroll data-scroll-speed="-0.5">
+            <h3 class="heading"><?php echo get_sub_field('titel') ?></h3>
+          </div>
+          <div class="item" data-scroll data-scroll-speed="0.3">
+            <span class="large-text"><?php echo get_sub_field('text') ?></span>
+          </div>
 
-        <?php if( have_rows('item') ):
-          while( have_rows('item') ): the_row();?>
+          <?php endwhile; ?>
+        <?php endif; ?>
 
-        <?php if( get_sub_field('titel') or get_sub_field('text')): ?>
-
-        <div class="item">
-          <h3 data-scroll class="heading"><?php echo get_sub_field('titel') ?></h3>
         </div>
-        <div class="item">
-          <span data-scroll class="large-text"><?php echo get_sub_field('text') ?></p>
-        </div>
-
-      <?php endif; ?>
-      <?php endwhile; ?>
-      <?php endif; ?>
-
       </div>
+
     </div>
+  </section>
 
-  <?php endif; ?>
-
-  </div>
-</section>
-
-<?php endif; ?>
-<?php endwhile; ?>
+  <?php endwhile; ?>
 <?php endif; ?>

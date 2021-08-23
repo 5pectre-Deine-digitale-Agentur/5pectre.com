@@ -3,7 +3,7 @@
     <div class="grid">
       <div class="item">
         <div class="contact-container">
-          <h3>So kannst du uns erreichen</h3>
+          <h3 class="heading">So kannst du uns erreichen</h3>
           <p class="large-text">5pectre UG (haftungsbeschränkt)<br>Am Wasserwerk 2<br>25355 Barmstedt</p>
           <a class="button link mail" href="mailto:moinmoin@5pectre.com">
             <div class="icon">

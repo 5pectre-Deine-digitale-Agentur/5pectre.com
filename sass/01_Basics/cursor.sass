@@ -7,11 +7,48 @@
 .cursor--small
   width: 10px
   height: 10px
+  position: absolute
   left: -5px
   top: -5px
   border-radius: 50%
   z-index: 1100
   background: $color2
+  transition: height .5s, width .5s
+
+  &.drag
+    width: 100px
+    height: 100px
+    position: absolute
+    left: -50px
+    top: -50px
+    transition: height .3s, width .3s
+
+    &::after
+      content: "Drag"
+      font-weight: bold
+      font-family: $heading
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+
+  &.click
+    width: 100px
+    height: 100px
+    position: absolute
+    left: -50px
+    top: -50px
+    transition: height .3s, width .3s
+
+    &::after
+      content: "Klick"
+      font-weight: bold
+      font-family: $heading
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+
 
 .cursor--canvas
   z-index: 1000

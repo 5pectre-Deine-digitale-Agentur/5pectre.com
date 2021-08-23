@@ -11,14 +11,14 @@
   <div class="wrapper">
 
     <?php if( get_sub_field('punchline') ): ?>
-    <div class="title">
-      <h1 class="heading" data-scroll><?php echo get_sub_field('punchline') ?></h1>
+    <div class="title" data-scroll data-scroll-speed="-1">
+      <h1 class="heading"><?php echo get_sub_field('punchline') ?></h1>
     </div>
     <?php endif; ?>
 
     <?php if( get_sub_field('mission') ): ?>
-    <div class="mission">
-      <span class="large-text" data-scroll><?php echo get_sub_field('mission') ?></span>
+    <div class="mission" data-scroll data-scroll-speed="0.5">
+      <span class="large-text"><?php echo get_sub_field('mission') ?></span>
     </div>
     <?php endif; ?>
 

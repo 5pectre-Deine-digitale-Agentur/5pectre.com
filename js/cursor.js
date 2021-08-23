@@ -1,37 +1,15 @@
-/**
- * tutorial.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2019, Codrops
- * http://www.codrops.com
- */
-
-// set the starting position of the cursor outside of the screen
 let clientX = -100;
 let clientY = -100;
 const innerCursor = document.querySelector(".cursor--small");
 
 const initCursor = () => {
-  // add listener to track the current mouse position
   document.addEventListener("mousemove", e => {
     clientX = e.clientX;
     clientY = e.clientY;
   });
 
-  // transform the innerCursor to the current mouse position
-  // use requestAnimationFrame() for smooth performance
   const render = () => {
     innerCursor.style.transform = `translate(${clientX}px, ${clientY}px)`;
-    // if you are already using TweenMax in your project, you might as well
-    // use TweenMax.set() instead
-    // TweenMax.set(innerCursor, {
-    //   x: clientX,
-    //   y: clientY
-    // });
-
     requestAnimationFrame(render);
   };
   requestAnimationFrame(render);
@@ -57,7 +35,6 @@ const initCanvas = () => {
   const segments = 15;
   const radius = 100;
 
-  // we'll need these later for the noisy circle
   const noiseScale = 100; // speed
   const noiseRange = 4; // range of distortion
   let isNoisy = false; // state
@@ -89,19 +66,12 @@ const initCanvas = () => {
     );
   };
 
-  // the draw loop of Paper.js
-  // (60fps with requestAnimationFrame under the hood)
   paper.view.onFrame = event => {
-    // using linear interpolation, the circle will move 0.2 (20%)
-    // of the distance between its current position and the mouse
-    // coordinates per Frame
     if (!isStuck) {
-      // move circle around normally
       lastX = lerp(lastX, clientX, 0.2);
       lastY = lerp(lastY, clientY, 0.2);
       group.position = new paper.Point(lastX, lastY);
     } else if (isStuck) {
-      // fixed position on a nav item
       lastX = lerp(lastX, stuckX, 0.2);
       lastY = lerp(lastY, stuckY, 0.2);
       group.position = new paper.Point(lastX, lastY);
@@ -202,3 +172,31 @@ const initHovers = () => {
 };
 
 initHovers();
+
+(function($) {
+
+  $(function() {
+    $('#slide').hover(function() {
+      $('.cursor--small').addClass('drag');
+    }, function() {
+      $('.cursor--small').removeClass('drag');
+    });
+  });
+
+  $(function() {
+    $('.accordeon').hover(function() {
+      $('.cursor--small').addClass('click');
+    }, function() {
+      $('.cursor--small').removeClass('click');
+    });
+  });
+
+  $(function() {
+    $('.item').hover(function() {
+      $('.cursor--small').addClass('click');
+    }, function() {
+      $('.cursor--small').removeClass('click');
+    });
+  });
+
+})( jQuery );

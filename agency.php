@@ -14,4 +14,6 @@ get_header(); ?>
 			include 'sections/01_Home/contact.php';
     ?>
 
+	</main>
+
 <?php get_footer(); ?>
