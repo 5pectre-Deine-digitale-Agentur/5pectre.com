@@ -28,7 +28,10 @@
 $image = get_sub_field('image');
 if( !empty( $image ) ): ?>
   <div class="hero-image">
-    <img data-scroll src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+    <video data-scroll src="<?php echo esc_url($image['url']); ?>" autoplay=true controls poster="vorschaubild.jpg">
+      Dies Video kann in Ihrem Browser nicht wiedergegeben werden.<br>
+      Eine Download-Version steht unter <a href="URL">Link-Addresse</a> zum Abruf bereit.
+    </video>
   </div>
   <?php endif; ?>
 
