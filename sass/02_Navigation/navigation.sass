@@ -23,6 +23,9 @@ nav
       width: 35%
       position: relative
 
+      @include lg
+        width: 30%
+
       p.menu-link
         position: absolute
         top: 50%
@@ -43,6 +46,12 @@ nav
       width: 30%
       position: relative
 
+      @include lg
+        width: 40%
+
+      @include md
+        width: 50%
+
       .menu
         position: absolute
         top: 50%
@@ -56,6 +65,12 @@ nav
     .notice
       width: 35%
       position: relative
+
+      @include lg
+        width: 25%
+
+      @include lg
+        width: 20%
 
       p
         text-align: right

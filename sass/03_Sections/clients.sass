@@ -2,6 +2,10 @@
   margin: 100px 0 200px 200px
   width: calc(100% - 200px)
 
+  @include xl
+    margin: 100px 0 200px 0
+    width: 100%
+
   .title
     margin-bottom: 75px
 
@@ -9,6 +13,9 @@
     display: grid
     grid-template-columns: 1fr 1fr 1fr 1fr
     grid-gap: 1rem
+
+    @include lg
+      grid-template-columns: 1fr 1fr 1fr
 
     .item
       background: $color5

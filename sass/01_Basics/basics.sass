@@ -24,6 +24,10 @@ h1
   &.heading
     font-family: $heading
 
+  @include lg
+    font-size: $size * 4
+    line-height: $size * 4 * 1.5
+
 
 h2
   font-size: $size * 3
@@ -35,6 +39,9 @@ h2
 h3
   font-size: $size * 1.5
   font-weight: bold
+
+  @include lg
+    font-size: $size * 1.25
 
   &.heading
     font-family: $heading
@@ -71,6 +78,10 @@ span, a, p
     font-size: $size * 2.25
     line-height: $size * 2.25 * 1.5
 
+    @include lg
+      font-size: $size * 1.5
+      line-height: $size * 2.25
+
   &.bold
     font-size: 600
 
@@ -100,16 +111,16 @@ ul
     width: calc(100% - 200px)
 
   @include lg
-    width: calc(100% - 200px)
+    width: calc(100% - 150px)
 
   @include md
-    width: calc(100% - 50px)
+    width: calc(100% - 100px)
 
-  @include md
-    width: calc(100% - 20px)
-
-  @include md
-    width: calc(100% - 10px)
+  // @include md
+  //   width: calc(100% - 20px)
+  //
+  // @include md
+  //   width: calc(100% - 10px)
 
 .ninja
   @include md

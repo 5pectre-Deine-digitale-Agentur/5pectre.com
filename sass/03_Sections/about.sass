@@ -10,11 +10,27 @@
     position: relative
     margin-left: 40%
 
+    @include md
+      width: 65%
+      margin-left: 35%
+
   .about
     width: 60%
     margin-right: calc(40% - 200px)
     margin-left: 200px
     margin-bottom: 50px
 
+    @include xl
+      margin-left: 100px
+
+    @include lg
+      margin-left: 50px
+
   .button
     margin-left: 200px
+
+    @include xl
+      margin-left: 100px
+
+    @include lg
+      margin-left: 50px

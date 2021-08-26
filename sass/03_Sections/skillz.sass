@@ -6,9 +6,18 @@
     margin-left: 200px
     margin-bottom: 100px
 
+    @include lg
+      width: 100%
+      margin-left: 0
+      text-align: center
+
   .skill-row
     width: calc(100% - 200px)
     margin-left: 200px
+
+    @include lg
+      width: 100%
+      margin-left: 0
 
     .skill-container.active
       .skill-content
