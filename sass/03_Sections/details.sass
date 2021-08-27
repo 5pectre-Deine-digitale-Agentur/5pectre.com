@@ -7,6 +7,18 @@
     grid-template-columns: calc(40% - 200px) calc(60% - 200px)
     margin-left: 200px
 
+    @include xxl
+      grid-template-columns: calc(40% - 100px) calc(60% - 100px)
+      margin-left: 100px
+
+    @include xl
+      grid-template-columns: calc(40% - 50px) calc(60% - 50px)
+      margin-left: 50px
+
+    @include lg
+      grid-template-columns: calc(40% - 0px) calc(60% - 0px)
+      margin-left: 0px
+
     .item
       display: flex
       flex-direction: column

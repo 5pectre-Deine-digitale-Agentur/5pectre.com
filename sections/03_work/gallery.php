@@ -4,7 +4,7 @@
   $value = get_sub_field('section_type');
   $images = get_sub_field('gallery');
   ?>
-  <section id="gallery" class="single">
+  <section id="gallery" class="single" data-scroll-section>
     <div class="wrapper">
       <!--
       Das wird ein Repeater
@@ -20,7 +20,10 @@
             $text = get_sub_field('text');?>
 
             <div class="gallery-item">
-              <img class="img-item" src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>">
+              <div class="item__container" data-scroll data-scroll-speed="-0.5" style="background: <?php echo the_field('ci_color'); ?>">
+                <img class="img-item" src="<?php echo esc_url($img['url']); ?>" alt="<?php echo esc_attr($img['alt']); ?>">
+              </div>
+
               <p class="large-text"><?php echo $text ?></p>
             </div>
 
@@ -33,7 +36,7 @@
               <?php if( $images ): ?>
                 <?php foreach( $images as $image ): ?>
 
-                  <div class="item">
+                  <div class="item" data-scroll data-scroll-speed="-0.5" style="background: <?php echo the_field('ci_color'); ?>">
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
                   </div>
 
@@ -41,7 +44,7 @@
               <?php endif; ?>
 
             </div>
-            <p class="large-text"><?php echo $text ?></p>
+            <p class="large-text" data-scroll><?php echo $text ?></p>
           </div>
       <?php  } else {
         echo "";

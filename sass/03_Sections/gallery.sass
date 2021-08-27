@@ -13,6 +13,18 @@
       justify-content: center
       align-items: center
 
+      @include xxl
+        width: calc(100% - 200px)
+        margin-left: 100px
+
+      @include xl
+        width: calc(100% - 100px)
+        margin-left: 50px
+
+      @include lg
+        width: 100%
+        margin-left: 0
+
       .img-item
         width: 80%
         margin: 10% 0
@@ -22,6 +34,16 @@
       width: calc(100% - 400px)
       margin: auto
       height: auto
+      margin-top: 100px
+
+      @include xxl
+        width: calc(100% - 200px)
+
+      @include xl
+        width: calc(100% - 100px)
+
+      @include lg
+        width: 100%
 
     .gallery-grid
       width: calc(100% - 400px)
@@ -31,6 +53,15 @@
       margin-left: auto
       grid-gap: 2.5rem
       padding-bottom: 50px
+
+      @include xxl
+        width: calc(100% - 200px)
+
+      @include xl
+        width: calc(100% - 100px)
+
+      @include lg
+        width: 100%
 
       .item
         width: 100%

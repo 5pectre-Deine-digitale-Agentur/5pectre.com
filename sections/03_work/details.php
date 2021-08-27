@@ -1,8 +1,8 @@
-<section id="detail" class="single">
+<section id="detail" class="single" data-scroll-section>
   <div class="wrapper">
     <div class="grid">
       <div class="item">
-        <div class="details">
+        <div class="details" data-scroll data-scroll-speed="-1">
           <h4 class="heading">Kunde</h4>
           <p>Enova Elektrotechnikg</p>
 
@@ -16,8 +16,8 @@
           <p>Print</p>
         </div>
       </div>
-      <div class="item">
-          <?php the_content(); ?>
+      <div class="item" data-scroll data-scroll-speed="0.5">
+        <p class="large-text"><?php echo the_sub_field('description'); ?></p>
       </div>
     </div>
   </div>

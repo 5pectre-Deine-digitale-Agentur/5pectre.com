@@ -2,6 +2,9 @@
   height: 100vh
   padding: 150px 0
 
+  @include lg
+    padding: 0
+
   .wrapper
     display: flex
     flex-direction: column
@@ -10,6 +13,15 @@
     .testimonial
       margin: auto
       width: calc(100% - 400px)
+
+      @include xxl
+        width: calc(100% - 200px)
+
+      @include xl
+        width: calc(100% - 100px)
+
+      @include lg
+        width: 100%
 
       h4
         margin-bottom: 0
